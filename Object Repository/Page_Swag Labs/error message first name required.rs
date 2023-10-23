@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_Password for all userssecret_sauce</name>
+   <name>error message first name required</name>
    <tag></tag>
-   <elementGuidId>cbe586b4-449f-4566-bdc0-8e05535bcf6d</elementGuidId>
+   <elementGuidId>04c46c25-7485-4e93-af1e-a9467d2fdda2</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>div.login_password</value>
+         <value>div.error-message-container.error</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='root']/div/div[2]/div[2]/div/div[2]</value>
+         <value>//div[@id='checkout_info_container']/div/form/div/div[4]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,70 +22,78 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>fb67d119-3146-465c-9e96-a14636784623</webElementGuid>
+      <webElementGuid>5146c580-66d7-42f3-91ce-bfb0f7f41bd3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>login_password</value>
-      <webElementGuid>0926a89b-d6f7-4425-8662-e2cf17c2e76b</webElementGuid>
+      <value>error-message-container error</value>
+      <webElementGuid>a4b6b805-1e31-4847-b258-cfa8e66090d0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Password for all users:secret_sauce</value>
-      <webElementGuid>1f773992-0a22-40f2-859f-867c80cfe34a</webElementGuid>
+      <value>Error: First Name is required</value>
+      <webElementGuid>be90d02a-08d5-437b-9612-0c48e7cb8585</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;root&quot;)/div[@class=&quot;login_container&quot;]/div[@class=&quot;login_wrapper&quot;]/div[@class=&quot;login_credentials_wrap&quot;]/div[@class=&quot;login_credentials_wrap-inner&quot;]/div[@class=&quot;login_password&quot;]</value>
-      <webElementGuid>6f0ee2c9-dd02-4807-8f97-93d5876237e1</webElementGuid>
+      <value>id(&quot;checkout_info_container&quot;)/div[@class=&quot;checkout_info_wrapper&quot;]/form[1]/div[@class=&quot;checkout_info&quot;]/div[@class=&quot;error-message-container error&quot;]</value>
+      <webElementGuid>be288035-394c-4f7c-ac5a-573c64a0872c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='root']/div/div[2]/div[2]/div/div[2]</value>
-      <webElementGuid>d0691d04-2a44-404f-ae07-1f04a7a96e66</webElementGuid>
+      <value>//div[@id='checkout_info_container']/div/form/div/div[4]</value>
+      <webElementGuid>517385dc-d7b9-4d76-a1bc-9a8776eee2ef</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Accepted usernames are:'])[1]/following::div[1]</value>
-      <webElementGuid>7395cfaf-9c6b-40ab-950b-87542b4daa20</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Checkout: Your Information'])[1]/following::div[7]</value>
+      <webElementGuid>836a2cf0-fee6-48d2-bbc9-41702036f4aa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='secret_sauce']/parent::*</value>
-      <webElementGuid>002712d1-ce81-41c1-8323-504ecb6c3472</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Swag Labs'])[2]/following::div[9]</value>
+      <webElementGuid>792793f6-adab-44d6-aaa2-4208517a291c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/preceding::div[1]</value>
+      <webElementGuid>0dfd1231-ef47-42d7-b71c-1f48b6cd816b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div/div[2]</value>
-      <webElementGuid>bbeee087-1c22-4cf7-ab33-c688bd33c0a3</webElementGuid>
+      <value>//div[4]</value>
+      <webElementGuid>fb183470-a134-49ca-9e0f-6eecb90ccc58</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//div[(text() = 'Password for all users:secret_sauce' or . = 'Password for all users:secret_sauce')]</value>
-      <webElementGuid>0dcabdb1-7952-4582-b16a-ecd5aae161e5</webElementGuid>
+      <value>//div[(text() = 'Error: First Name is required' or . = 'Error: First Name is required')]</value>
+      <webElementGuid>ee35d396-9ed2-4e87-aef2-5f74ea262fde</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

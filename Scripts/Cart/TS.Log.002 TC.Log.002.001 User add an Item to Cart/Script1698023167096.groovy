@@ -21,25 +21,21 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.saucedemo.com/')
 
-WebUI.click(findTestObject('Object Repository/Page_Swag Labs/div_Accepted usernames arestandard_userlock_f87578'))
+WebUI.setText(findTestObject('Object Repository/Page_Swag Labs/Username_field'), 'standard_user')
 
-WebUI.setText(findTestObject('Object Repository/Page_Swag Labs/input_Swag Labs_user-name'), 'standard_user')
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_Swag Labs/Password_field'), 'qcu24s4901FyWDTwXGr6XA==')
 
-WebUI.click(findTestObject('Object Repository/Page_Swag Labs/div_Password for all userssecret_sauce'))
+WebUI.click(findTestObject('Object Repository/Page_Swag Labs/button_login'))
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Swag Labs/input_Swag Labs_password'), 'qcu24s4901FyWDTwXGr6XA==')
-
-WebUI.click(findTestObject('Object Repository/Page_Swag Labs/input_Swag Labs_login-button'))
-
-WebUI.click(findTestObject('Object Repository/Page_Swag Labs/div_Sauce Labs Backpack'))
+WebUI.click(findTestObject('Object Repository/Page_Swag Labs/Title item Labs Backpack'))
 
 WebUI.click(findTestObject('Object Repository/Page_Swag Labs/button_Add to cart'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Swag Labs/span_1'), 0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Swag Labs/Cart pop up number'), 0)
 
-WebUI.click(findTestObject('Object Repository/Page_Swag Labs/a_1'))
+WebUI.click(findTestObject('Object Repository/Page_Swag Labs/Cart Icon'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Swag Labs/div_Sauce Labs Backpack'), 0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Swag Labs/Title item Labs Backpack'), 0)
 
 WebUI.closeBrowser()
 

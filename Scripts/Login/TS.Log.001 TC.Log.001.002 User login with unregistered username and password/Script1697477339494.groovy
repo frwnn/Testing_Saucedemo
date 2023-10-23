@@ -21,18 +21,13 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://www.saucedemo.com/')
 
-WebUI.click(findTestObject('Object Repository/Page_Swag Labs/input_Swag Labs_user-name'))
+WebUI.setText(findTestObject('Page_Swag Labs/Username_field'), 'test salah')
 
-WebUI.click(findTestObject('Object Repository/Page_Swag Labs/div_Accepted usernames arestandard_userlock_0d4679'))
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_Swag Labs/Password_field'), 'xDH/NDxr8Nk91RcxWnF9Qg==')
 
-WebUI.setText(findTestObject('Page_Swag Labs/input_Swag Labs_user-name'), 'test salah')
+WebUI.click(findTestObject('Object Repository/Page_Swag Labs/button_login'))
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Swag Labs/input_Swag Labs_password'), 'xDH/NDxr8Nk91RcxWnF9Qg==')
-
-WebUI.click(findTestObject('Object Repository/Page_Swag Labs/input_Swag Labs_login-button'))
-
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Swag Labs/h3_Epic sadface Username and password do no_0e8909'), 
-    0)
+WebUI.verifyElementPresent(findTestObject('Page_Swag Labs/Error message login'), 0)
 
 WebUI.closeBrowser()
 

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TS.Log.003 TC.Log.003.001 User checkout the item in the cart</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e36809a7-a4bf-4e7b-8bcc-d39709a642b3</testCaseGuid>
+</TestCaseEntity>

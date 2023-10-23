@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>h3_Epic sadface Username and password do no_0e8909</name>
+   <name>Cart Icon</name>
    <tag></tag>
-   <elementGuidId>814d8106-3154-4298-a562-7892d83abd27</elementGuidId>
+   <elementGuidId>348eafde-126e-4b43-93e5-f695c3d9d854</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>h3</value>
+         <value>a.shopping_cart_link</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='login_button_container']/div/form/div[3]/h3</value>
+         <value>//div[@id='shopping_cart_container']/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,79 +21,87 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>h3</value>
-      <webElementGuid>87c0d469-5391-4f2d-9d48-c32c22ef5dcc</webElementGuid>
+      <value>a</value>
+      <webElementGuid>e64a3655-a095-4f05-bf51-fd3e9e779a50</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>data-test</name>
+      <name>class</name>
       <type>Main</type>
-      <value>error</value>
-      <webElementGuid>8b656740-be5e-453e-8110-227fcd2d313c</webElementGuid>
+      <value>shopping_cart_link</value>
+      <webElementGuid>67bfd504-9018-42ae-9029-5651ab377e62</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Epic sadface: Username and password do not match any user in this service</value>
-      <webElementGuid>11d4b1b1-74ce-4871-87b7-0299b1bd84cd</webElementGuid>
+      <value>1</value>
+      <webElementGuid>e003c092-3ce0-4121-892c-85baceb58617</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;login_button_container&quot;)/div[@class=&quot;login-box&quot;]/form[1]/div[@class=&quot;error-message-container error&quot;]/h3[1]</value>
-      <webElementGuid>589dd3ca-514a-467c-ad14-45859f3f1cdb</webElementGuid>
+      <value>id(&quot;shopping_cart_container&quot;)/a[@class=&quot;shopping_cart_link&quot;]</value>
+      <webElementGuid>a8ed3134-8fe9-4307-9487-f8feabd8fcda</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='login_button_container']/div/form/div[3]/h3</value>
-      <webElementGuid>958d7aa0-377d-4d72-8ed4-fc4cc0230acc</webElementGuid>
+      <value>//div[@id='shopping_cart_container']/a</value>
+      <webElementGuid>c3ef4b69-877c-4878-9247-08e4350ae4c9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Swag Labs'])[2]/following::h3[1]</value>
-      <webElementGuid>15319134-df72-4384-a6e1-e8af72af2bad</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Swag Labs'])[2]/following::a[1]</value>
+      <webElementGuid>63345a49-dc95-4a10-93a3-cdab3fb87447</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Accepted usernames are:'])[1]/preceding::h3[1]</value>
-      <webElementGuid>3744f032-c72e-40cc-a232-3c01f3efaf3d</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Close Menu'])[1]/following::a[1]</value>
+      <webElementGuid>35548758-a7a4-461a-82ef-f519407de0c7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Epic sadface: Username and password do not match any user in this service']/parent::*</value>
-      <webElementGuid>06653dae-ea3b-4f74-bbfe-ffcfb28d8165</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Back to products'])[1]/preceding::a[1]</value>
+      <webElementGuid>316eae73-5b43-4f1c-9f7b-69ec282b51dd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sauce Labs Backpack'])[1]/preceding::a[1]</value>
+      <webElementGuid>6dff627e-7e5c-46c6-9e3a-919598854a33</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//h3</value>
-      <webElementGuid>01574a7d-fc39-4f9f-9357-451b2df4c1a8</webElementGuid>
+      <value>//div[3]/a</value>
+      <webElementGuid>9530832e-7ff9-48b0-866f-280284135096</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//h3[(text() = 'Epic sadface: Username and password do not match any user in this service' or . = 'Epic sadface: Username and password do not match any user in this service')]</value>
-      <webElementGuid>13d18ffe-a4ff-43fb-beb1-bc2d68d53a4f</webElementGuid>
+      <value>//a[(text() = '1' or . = '1')]</value>
+      <webElementGuid>d6d1eb71-2460-43b7-bc93-bbf5a65a0719</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

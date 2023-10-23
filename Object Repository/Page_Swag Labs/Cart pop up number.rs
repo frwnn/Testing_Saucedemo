@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_1</name>
+   <name>Cart pop up number</name>
    <tag></tag>
    <elementGuidId>acec69d8-549d-4ce4-85dc-37eb7cef39fa</elementGuidId>
    <selectorCollection>
