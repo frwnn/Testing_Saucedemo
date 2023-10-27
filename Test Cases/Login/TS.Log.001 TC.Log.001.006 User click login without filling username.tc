@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TS.Log.001 TC.Log.001.006 User click login without filling username</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d502a47e-4236-40f6-8b69-95fb98a2f845</testCaseGuid>
+</TestCaseEntity>
