@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TS.Log.003 TC.Log.003.002 User checksout the items without filling the first name field</name>
+   <name>TS.Log.003 TC.Log.003.002 User checkout the items without filling the first name field</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>3e56d0de-6912-42a3-ad4a-306591d0a499</testCaseGuid>

@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login Feature suite" time="212.757" tests="8" failures="0" errors="0">
+   <testsuite name="Login Feature suite" tests="8" failures="0" errors="0" time="212.757" skipped="0" timestamp="2023-10-30 20:09:54" hostname="Fajar - 192.168.173.1" id="Test Suites/Login Feature suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Users\\Fajar\\git\\Testing_Saucedemo\\Reports\\20231030_200940\\Login Feature suite\\20231030_200941"/>
+         <property name="logFiles" value="D:\\Users\\Fajar\\git\\Testing_Saucedemo\\Reports\\20231030_200940\\Login Feature suite\\20231030_200941\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Fajar - 192.168.173.1"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.8.208"/>
+         <property name="browser" value="Chrome 118.0.0.0"/>
+         <property name="hostAddress" value="192.168.173.1"/>
+         <property name="sessionId" value="05c84cc16e2d7737abd4f1ba077f06e1"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login/TS.Log.001 TC.Log.001.001 User login with valid credential" time="23.929" classname="Test Cases/Login/TS.Log.001 TC.Log.001.001 User login with valid credential" status="PASSED">
+         <system-out><![CDATA[2023-10-30 20:09:55 - [TEST_CASE][PASSED] - Test Cases/Login/TS.Log.001 TC.Log.001.001 User login with valid credential: Test Cases/Login/TS.Log.001 TC.Log.001.001 User login with valid credential
+
+2023-10-30 20:09:56 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-10-30 20:09:57 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-10-30 20:09:57 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-10-30 20:10:02 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-10-30 20:10:02 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/"): Navigate to 'https://www.saucedemo.com/' successfully
+
+2023-10-30 20:10:05 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+2023-10-30 20:10:05 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Swag Labs/Username_field"), "standard_user"): Text 'standard_user' is set on object 'Object Repository/Page_Swag Labs/Username_field'
+
+2023-10-30 20:10:09 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Page_Swag Labs/Username_field'
+
+2023-10-30 20:10:09 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Swag Labs/Password_field"), "qcu24s4901FyWDTwXGr6XA=="): Text ****** has been set on object 'Object Repository/Page_Swag Labs/Password_field'
+
+2023-10-30 20:10:10 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Swag Labs/Password_field'
+
+2023-10-30 20:10:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/button_login")): Object: 'Object Repository/Page_Swag Labs/button_login' is clicked on
+
+2023-10-30 20:10:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/button_login' is clicked on
+
+2023-10-30 20:10:11 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-10-30 20:10:19 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/TS.Log.001 TC.Log.001.002 User login with unregistered username and password" time="40.742" classname="Test Cases/Login/TS.Log.001 TC.Log.001.002 User login with unregistered username and password" status="PASSED">
+         <system-out><![CDATA[2023-10-30 20:10:19 - [TEST_CASE][PASSED] - Test Cases/Login/TS.Log.001 TC.Log.001.002 User login with unregistered username and password: Test Cases/Login/TS.Log.001 TC.Log.001.002 User login with unregistered username and password
+
+2023-10-30 20:10:20 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-10-30 20:10:20 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-10-30 20:10:20 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-10-30 20:10:23 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-10-30 20:10:23 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/"): Navigate to 'https://www.saucedemo.com/' successfully
+
+2023-10-30 20:10:24 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+2023-10-30 20:10:24 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Swag Labs/Username_field"), "test salah"): Text 'test salah' is set on object 'Object Repository/Page_Swag Labs/Username_field'
+
+2023-10-30 20:10:27 - [MESSAGE][PASSED] - Text 'test salah' is set on object 'Object Repository/Page_Swag Labs/Username_field'
+
+2023-10-30 20:10:27 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Swag Labs/Password_field"), "xDH/NDxr8Nk91RcxWnF9Qg=="): Text ****** has been set on object 'Object Repository/Page_Swag Labs/Password_field'
+
+2023-10-30 20:10:28 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Swag Labs/Password_field'
+
+2023-10-30 20:10:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/button_login")): Object: 'Object Repository/Page_Swag Labs/button_login' is clicked on
+
+2023-10-30 20:10:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/button_login' is clicked on
+
+2023-10-30 20:10:28 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Swag Labs/Error message login"), 0): Object 'Object Repository/Page_Swag Labs/Error message login' is present
+
+2023-10-30 20:10:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-30 20:10:59 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Swag Labs/Error message login' is present
+
+2023-10-30 20:10:59 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-10-30 20:11:00 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/TS.Log.001 TC.Log.001.003 User login with unregistered username and valid password" time="41.918" classname="Test Cases/Login/TS.Log.001 TC.Log.001.003 User login with unregistered username and valid password" status="PASSED">
+         <system-out><![CDATA[2023-10-30 20:11:00 - [TEST_CASE][PASSED] - Test Cases/Login/TS.Log.001 TC.Log.001.003 User login with unregistered username and valid password: Test Cases/Login/TS.Log.001 TC.Log.001.003 User login with unregistered username and valid password
+
+2023-10-30 20:11:01 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-10-30 20:11:01 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-10-30 20:11:01 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-10-30 20:11:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-10-30 20:11:03 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/"): Navigate to 'https://www.saucedemo.com/' successfully
+
+2023-10-30 20:11:04 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+2023-10-30 20:11:04 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Swag Labs/Username_field"), "test salah"): Text 'test salah' is set on object 'Object Repository/Page_Swag Labs/Username_field'
+
+2023-10-30 20:11:08 - [MESSAGE][PASSED] - Text 'test salah' is set on object 'Object Repository/Page_Swag Labs/Username_field'
+
+2023-10-30 20:11:08 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Swag Labs/Password_field"), "qcu24s4901FyWDTwXGr6XA=="): Text ****** has been set on object 'Object Repository/Page_Swag Labs/Password_field'
+
+2023-10-30 20:11:09 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Swag Labs/Password_field'
+
+2023-10-30 20:11:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/button_login")): Object: 'Object Repository/Page_Swag Labs/button_login' is clicked on
+
+2023-10-30 20:11:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/button_login' is clicked on
+
+2023-10-30 20:11:10 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Swag Labs/Error message login"), 0): Object 'Object Repository/Page_Swag Labs/Error message login' is present
+
+2023-10-30 20:11:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-30 20:11:41 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Swag Labs/Error message login' is present
+
+2023-10-30 20:11:41 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-10-30 20:11:42 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/TS.Log.001 TC.Log.001.004 User login with registered username and invalid password" time="40.487" classname="Test Cases/Login/TS.Log.001 TC.Log.001.004 User login with registered username and invalid password" status="PASSED">
+         <system-out><![CDATA[2023-10-30 20:11:42 - [TEST_CASE][PASSED] - Test Cases/Login/TS.Log.001 TC.Log.001.004 User login with registered username and invalid password: Test Cases/Login/TS.Log.001 TC.Log.001.004 User login with registered username and invalid password
+
+2023-10-30 20:11:42 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-10-30 20:11:42 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-10-30 20:11:43 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-10-30 20:11:45 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-10-30 20:11:45 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/"): Navigate to 'https://www.saucedemo.com/' successfully
+
+2023-10-30 20:11:46 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+2023-10-30 20:11:46 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Swag Labs/Username_field"), "standard_user"): Text 'standard_user' is set on object 'Object Repository/Page_Swag Labs/Username_field'
+
+2023-10-30 20:11:49 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Page_Swag Labs/Username_field'
+
+2023-10-30 20:11:49 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Swag Labs/Password_field"), "FMpJ+xZn0jDKm5OtYfOeUQ=="): Text ****** has been set on object 'Object Repository/Page_Swag Labs/Password_field'
+
+2023-10-30 20:11:50 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Swag Labs/Password_field'
+
+2023-10-30 20:11:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/button_login")): Object: 'Object Repository/Page_Swag Labs/button_login' is clicked on
+
+2023-10-30 20:11:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/button_login' is clicked on
+
+2023-10-30 20:11:51 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Swag Labs/Error message login"), 0): Object 'Object Repository/Page_Swag Labs/Error message login' is present
+
+2023-10-30 20:11:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-30 20:12:21 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Swag Labs/Error message login' is present
+
+2023-10-30 20:12:21 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-10-30 20:12:22 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/TS.Log.001 TC.Log.001.005 User click login without filling password" time="16.435" classname="Test Cases/Login/TS.Log.001 TC.Log.001.005 User click login without filling password" status="PASSED">
+         <system-out><![CDATA[2023-10-30 20:12:22 - [TEST_CASE][PASSED] - Test Cases/Login/TS.Log.001 TC.Log.001.005 User click login without filling password: Test Cases/Login/TS.Log.001 TC.Log.001.005 User click login without filling password
+
+2023-10-30 20:12:23 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-10-30 20:12:23 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-10-30 20:12:23 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-10-30 20:12:26 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-10-30 20:12:26 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/"): Navigate to 'https://www.saucedemo.com/' successfully
+
+2023-10-30 20:12:26 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+2023-10-30 20:12:26 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Swag Labs/Username_field"), "standard_user"): Text 'standard_user' is set on object 'Object Repository/Page_Swag Labs/Username_field'
+
+2023-10-30 20:12:30 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Page_Swag Labs/Username_field'
+
+2023-10-30 20:12:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/button_login")): Object: 'Object Repository/Page_Swag Labs/button_login' is clicked on
+
+2023-10-30 20:12:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/button_login' is clicked on
+
+2023-10-30 20:12:31 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Swag Labs/Error message password required"), 0): Object 'Object Repository/Page_Swag Labs/Error message password required' is present
+
+2023-10-30 20:12:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-30 20:12:31 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Swag Labs/Error message password required' is present
+
+2023-10-30 20:12:31 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-10-30 20:12:39 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/TS.Log.001 TC.Log.001.006 User click login without filling username" time="15.964" classname="Test Cases/Login/TS.Log.001 TC.Log.001.006 User click login without filling username" status="PASSED">
+         <system-out><![CDATA[2023-10-30 20:12:39 - [TEST_CASE][PASSED] - Test Cases/Login/TS.Log.001 TC.Log.001.006 User click login without filling username: Test Cases/Login/TS.Log.001 TC.Log.001.006 User click login without filling username
+
+2023-10-30 20:12:39 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-10-30 20:12:39 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-10-30 20:12:39 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-10-30 20:12:42 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-10-30 20:12:42 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/"): Navigate to 'https://www.saucedemo.com/' successfully
+
+2023-10-30 20:12:43 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+2023-10-30 20:12:43 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Swag Labs/Password_field"), "qcu24s4901FyWDTwXGr6XA=="): Text ****** has been set on object 'Object Repository/Page_Swag Labs/Password_field'
+
+2023-10-30 20:12:46 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Swag Labs/Password_field'
+
+2023-10-30 20:12:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/button_login")): Object: 'Object Repository/Page_Swag Labs/button_login' is clicked on
+
+2023-10-30 20:12:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/button_login' is clicked on
+
+2023-10-30 20:12:46 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Swag Labs/Error message username required"), 0): Object 'Object Repository/Page_Swag Labs/Error message username required' is present
+
+2023-10-30 20:12:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-30 20:12:47 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Swag Labs/Error message username required' is present
+
+2023-10-30 20:12:47 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-10-30 20:12:55 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/TS.Log.001 TC.Log.001.007 User click login without fill username and password" time="15.557" classname="Test Cases/Login/TS.Log.001 TC.Log.001.007 User click login without fill username and password" status="PASSED">
+         <system-out><![CDATA[2023-10-30 20:12:55 - [TEST_CASE][PASSED] - Test Cases/Login/TS.Log.001 TC.Log.001.007 User click login without fill username and password: Test Cases/Login/TS.Log.001 TC.Log.001.007 User click login without fill username and password
+
+2023-10-30 20:12:55 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-10-30 20:12:55 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-10-30 20:12:55 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-10-30 20:12:58 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-10-30 20:12:58 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/"): Navigate to 'https://www.saucedemo.com/' successfully
+
+2023-10-30 20:13:00 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+2023-10-30 20:13:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/button_login")): Object: 'Object Repository/Page_Swag Labs/button_login' is clicked on
+
+2023-10-30 20:13:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/button_login' is clicked on
+
+2023-10-30 20:13:04 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Swag Labs/Error message username required"), 0): Object 'Object Repository/Page_Swag Labs/Error message username required' is present
+
+2023-10-30 20:13:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-30 20:13:04 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Swag Labs/Error message username required' is present
+
+2023-10-30 20:13:04 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-10-30 20:13:10 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/TS.Log.001 TC.Log.001.008 User logout" time="16.852" classname="Test Cases/Login/TS.Log.001 TC.Log.001.008 User logout" status="PASSED">
+         <system-out><![CDATA[2023-10-30 20:13:10 - [TEST_CASE][PASSED] - Test Cases/Login/TS.Log.001 TC.Log.001.008 User logout: Test Cases/Login/TS.Log.001 TC.Log.001.008 User logout
+
+2023-10-30 20:13:11 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-10-30 20:13:11 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-10-30 20:13:11 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-10-30 20:13:14 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-10-30 20:13:14 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/"): Navigate to 'https://www.saucedemo.com/' successfully
+
+2023-10-30 20:13:15 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+2023-10-30 20:13:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Swag Labs/Username_field"), "standard_user"): Text 'standard_user' is set on object 'Object Repository/Page_Swag Labs/Username_field'
+
+2023-10-30 20:13:18 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Page_Swag Labs/Username_field'
+
+2023-10-30 20:13:18 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Swag Labs/Password_field"), "qcu24s4901FyWDTwXGr6XA=="): Text ****** has been set on object 'Object Repository/Page_Swag Labs/Password_field'
+
+2023-10-30 20:13:19 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Swag Labs/Password_field'
+
+2023-10-30 20:13:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/button_login")): Object: 'Object Repository/Page_Swag Labs/button_login' is clicked on
+
+2023-10-30 20:13:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/button_login' is clicked on
+
+2023-10-30 20:13:20 - [TEST_STEP][PASSED] - click(findTestObject("Page_Swag Labs/button_Open Menu")): Object: 'Object Repository/Page_Swag Labs/button_Open Menu' is clicked on
+
+2023-10-30 20:13:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/button_Open Menu' is clicked on
+
+2023-10-30 20:13:21 - [TEST_STEP][PASSED] - click(findTestObject("Page_Swag Labs/Logout")): Object: 'Object Repository/Page_Swag Labs/Logout' is clicked on
+
+2023-10-30 20:13:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/Logout' is clicked on
+
+2023-10-30 20:13:23 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Swag Labs/Login page Swag Labs"), 0): Object 'Object Repository/Page_Swag Labs/Login page Swag Labs' is present
+
+2023-10-30 20:13:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-30 20:13:24 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Swag Labs/Login page Swag Labs' is present
+
+2023-10-30 20:13:24 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-10-30 20:13:27 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-10-30 20:09:54 - [TEST_SUITE][PASSED] - Login Feature suite: Test Cases/Login/TS.Log.001 TC.Log.001.008 User logout]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

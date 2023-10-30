@@ -1,0 +1,1390 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test Suite Collection" time="523.891" tests="18" failures="1" errors="0">
+   <testsuite name="Login Feature suite" tests="8" failures="0" errors="0" time="212.757" skipped="0" timestamp="2023-10-30 20:09:54" hostname="Fajar - 192.168.173.1" id="Test Suites/Login Feature suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Users\\Fajar\\git\\Testing_Saucedemo\\Reports\\20231030_200940\\Login Feature suite\\20231030_200941"/>
+         <property name="logFiles" value="D:\\Users\\Fajar\\git\\Testing_Saucedemo\\Reports\\20231030_200940\\Login Feature suite\\20231030_200941\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Fajar - 192.168.173.1"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.8.208"/>
+         <property name="browser" value="Chrome 118.0.0.0"/>
+         <property name="hostAddress" value="192.168.173.1"/>
+         <property name="sessionId" value="05c84cc16e2d7737abd4f1ba077f06e1"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Login/TS.Log.001 TC.Log.001.001 User login with valid credential" time="23.929" classname="Test Cases/Login/TS.Log.001 TC.Log.001.001 User login with valid credential" status="PASSED">
+         <system-out><![CDATA[2023-10-30 20:09:55 - [TEST_CASE][PASSED] - Test Cases/Login/TS.Log.001 TC.Log.001.001 User login with valid credential: Test Cases/Login/TS.Log.001 TC.Log.001.001 User login with valid credential
+
+2023-10-30 20:09:56 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-10-30 20:09:57 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-10-30 20:09:57 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-10-30 20:10:02 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-10-30 20:10:02 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/"): Navigate to 'https://www.saucedemo.com/' successfully
+
+2023-10-30 20:10:05 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+2023-10-30 20:10:05 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Swag Labs/Username_field"), "standard_user"): Text 'standard_user' is set on object 'Object Repository/Page_Swag Labs/Username_field'
+
+2023-10-30 20:10:09 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Page_Swag Labs/Username_field'
+
+2023-10-30 20:10:09 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Swag Labs/Password_field"), "qcu24s4901FyWDTwXGr6XA=="): Text ****** has been set on object 'Object Repository/Page_Swag Labs/Password_field'
+
+2023-10-30 20:10:10 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Swag Labs/Password_field'
+
+2023-10-30 20:10:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/button_login")): Object: 'Object Repository/Page_Swag Labs/button_login' is clicked on
+
+2023-10-30 20:10:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/button_login' is clicked on
+
+2023-10-30 20:10:11 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-10-30 20:10:19 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/TS.Log.001 TC.Log.001.002 User login with unregistered username and password" time="40.742" classname="Test Cases/Login/TS.Log.001 TC.Log.001.002 User login with unregistered username and password" status="PASSED">
+         <system-out><![CDATA[2023-10-30 20:10:19 - [TEST_CASE][PASSED] - Test Cases/Login/TS.Log.001 TC.Log.001.002 User login with unregistered username and password: Test Cases/Login/TS.Log.001 TC.Log.001.002 User login with unregistered username and password
+
+2023-10-30 20:10:20 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-10-30 20:10:20 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-10-30 20:10:20 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-10-30 20:10:23 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-10-30 20:10:23 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/"): Navigate to 'https://www.saucedemo.com/' successfully
+
+2023-10-30 20:10:24 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+2023-10-30 20:10:24 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Swag Labs/Username_field"), "test salah"): Text 'test salah' is set on object 'Object Repository/Page_Swag Labs/Username_field'
+
+2023-10-30 20:10:27 - [MESSAGE][PASSED] - Text 'test salah' is set on object 'Object Repository/Page_Swag Labs/Username_field'
+
+2023-10-30 20:10:27 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Swag Labs/Password_field"), "xDH/NDxr8Nk91RcxWnF9Qg=="): Text ****** has been set on object 'Object Repository/Page_Swag Labs/Password_field'
+
+2023-10-30 20:10:28 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Swag Labs/Password_field'
+
+2023-10-30 20:10:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/button_login")): Object: 'Object Repository/Page_Swag Labs/button_login' is clicked on
+
+2023-10-30 20:10:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/button_login' is clicked on
+
+2023-10-30 20:10:28 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Swag Labs/Error message login"), 0): Object 'Object Repository/Page_Swag Labs/Error message login' is present
+
+2023-10-30 20:10:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-30 20:10:59 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Swag Labs/Error message login' is present
+
+2023-10-30 20:10:59 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-10-30 20:11:00 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/TS.Log.001 TC.Log.001.003 User login with unregistered username and valid password" time="41.918" classname="Test Cases/Login/TS.Log.001 TC.Log.001.003 User login with unregistered username and valid password" status="PASSED">
+         <system-out><![CDATA[2023-10-30 20:11:00 - [TEST_CASE][PASSED] - Test Cases/Login/TS.Log.001 TC.Log.001.003 User login with unregistered username and valid password: Test Cases/Login/TS.Log.001 TC.Log.001.003 User login with unregistered username and valid password
+
+2023-10-30 20:11:01 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-10-30 20:11:01 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-10-30 20:11:01 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-10-30 20:11:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-10-30 20:11:03 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/"): Navigate to 'https://www.saucedemo.com/' successfully
+
+2023-10-30 20:11:04 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+2023-10-30 20:11:04 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Swag Labs/Username_field"), "test salah"): Text 'test salah' is set on object 'Object Repository/Page_Swag Labs/Username_field'
+
+2023-10-30 20:11:08 - [MESSAGE][PASSED] - Text 'test salah' is set on object 'Object Repository/Page_Swag Labs/Username_field'
+
+2023-10-30 20:11:08 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Swag Labs/Password_field"), "qcu24s4901FyWDTwXGr6XA=="): Text ****** has been set on object 'Object Repository/Page_Swag Labs/Password_field'
+
+2023-10-30 20:11:09 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Swag Labs/Password_field'
+
+2023-10-30 20:11:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/button_login")): Object: 'Object Repository/Page_Swag Labs/button_login' is clicked on
+
+2023-10-30 20:11:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/button_login' is clicked on
+
+2023-10-30 20:11:10 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Swag Labs/Error message login"), 0): Object 'Object Repository/Page_Swag Labs/Error message login' is present
+
+2023-10-30 20:11:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-30 20:11:41 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Swag Labs/Error message login' is present
+
+2023-10-30 20:11:41 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-10-30 20:11:42 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/TS.Log.001 TC.Log.001.004 User login with registered username and invalid password" time="40.487" classname="Test Cases/Login/TS.Log.001 TC.Log.001.004 User login with registered username and invalid password" status="PASSED">
+         <system-out><![CDATA[2023-10-30 20:11:42 - [TEST_CASE][PASSED] - Test Cases/Login/TS.Log.001 TC.Log.001.004 User login with registered username and invalid password: Test Cases/Login/TS.Log.001 TC.Log.001.004 User login with registered username and invalid password
+
+2023-10-30 20:11:42 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-10-30 20:11:42 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-10-30 20:11:43 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-10-30 20:11:45 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-10-30 20:11:45 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/"): Navigate to 'https://www.saucedemo.com/' successfully
+
+2023-10-30 20:11:46 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+2023-10-30 20:11:46 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Swag Labs/Username_field"), "standard_user"): Text 'standard_user' is set on object 'Object Repository/Page_Swag Labs/Username_field'
+
+2023-10-30 20:11:49 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Page_Swag Labs/Username_field'
+
+2023-10-30 20:11:49 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Swag Labs/Password_field"), "FMpJ+xZn0jDKm5OtYfOeUQ=="): Text ****** has been set on object 'Object Repository/Page_Swag Labs/Password_field'
+
+2023-10-30 20:11:50 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Swag Labs/Password_field'
+
+2023-10-30 20:11:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/button_login")): Object: 'Object Repository/Page_Swag Labs/button_login' is clicked on
+
+2023-10-30 20:11:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/button_login' is clicked on
+
+2023-10-30 20:11:51 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Swag Labs/Error message login"), 0): Object 'Object Repository/Page_Swag Labs/Error message login' is present
+
+2023-10-30 20:11:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-30 20:12:21 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Swag Labs/Error message login' is present
+
+2023-10-30 20:12:21 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-10-30 20:12:22 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/TS.Log.001 TC.Log.001.005 User click login without filling password" time="16.435" classname="Test Cases/Login/TS.Log.001 TC.Log.001.005 User click login without filling password" status="PASSED">
+         <system-out><![CDATA[2023-10-30 20:12:22 - [TEST_CASE][PASSED] - Test Cases/Login/TS.Log.001 TC.Log.001.005 User click login without filling password: Test Cases/Login/TS.Log.001 TC.Log.001.005 User click login without filling password
+
+2023-10-30 20:12:23 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-10-30 20:12:23 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-10-30 20:12:23 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-10-30 20:12:26 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-10-30 20:12:26 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/"): Navigate to 'https://www.saucedemo.com/' successfully
+
+2023-10-30 20:12:26 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+2023-10-30 20:12:26 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Swag Labs/Username_field"), "standard_user"): Text 'standard_user' is set on object 'Object Repository/Page_Swag Labs/Username_field'
+
+2023-10-30 20:12:30 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Page_Swag Labs/Username_field'
+
+2023-10-30 20:12:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/button_login")): Object: 'Object Repository/Page_Swag Labs/button_login' is clicked on
+
+2023-10-30 20:12:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/button_login' is clicked on
+
+2023-10-30 20:12:31 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Swag Labs/Error message password required"), 0): Object 'Object Repository/Page_Swag Labs/Error message password required' is present
+
+2023-10-30 20:12:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-30 20:12:31 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Swag Labs/Error message password required' is present
+
+2023-10-30 20:12:31 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-10-30 20:12:39 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/TS.Log.001 TC.Log.001.006 User click login without filling username" time="15.964" classname="Test Cases/Login/TS.Log.001 TC.Log.001.006 User click login without filling username" status="PASSED">
+         <system-out><![CDATA[2023-10-30 20:12:39 - [TEST_CASE][PASSED] - Test Cases/Login/TS.Log.001 TC.Log.001.006 User click login without filling username: Test Cases/Login/TS.Log.001 TC.Log.001.006 User click login without filling username
+
+2023-10-30 20:12:39 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-10-30 20:12:39 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-10-30 20:12:39 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-10-30 20:12:42 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-10-30 20:12:42 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/"): Navigate to 'https://www.saucedemo.com/' successfully
+
+2023-10-30 20:12:43 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+2023-10-30 20:12:43 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Swag Labs/Password_field"), "qcu24s4901FyWDTwXGr6XA=="): Text ****** has been set on object 'Object Repository/Page_Swag Labs/Password_field'
+
+2023-10-30 20:12:46 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Swag Labs/Password_field'
+
+2023-10-30 20:12:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/button_login")): Object: 'Object Repository/Page_Swag Labs/button_login' is clicked on
+
+2023-10-30 20:12:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/button_login' is clicked on
+
+2023-10-30 20:12:46 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Swag Labs/Error message username required"), 0): Object 'Object Repository/Page_Swag Labs/Error message username required' is present
+
+2023-10-30 20:12:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-30 20:12:47 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Swag Labs/Error message username required' is present
+
+2023-10-30 20:12:47 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-10-30 20:12:55 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/TS.Log.001 TC.Log.001.007 User click login without fill username and password" time="15.557" classname="Test Cases/Login/TS.Log.001 TC.Log.001.007 User click login without fill username and password" status="PASSED">
+         <system-out><![CDATA[2023-10-30 20:12:55 - [TEST_CASE][PASSED] - Test Cases/Login/TS.Log.001 TC.Log.001.007 User click login without fill username and password: Test Cases/Login/TS.Log.001 TC.Log.001.007 User click login without fill username and password
+
+2023-10-30 20:12:55 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-10-30 20:12:55 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-10-30 20:12:55 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-10-30 20:12:58 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-10-30 20:12:58 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/"): Navigate to 'https://www.saucedemo.com/' successfully
+
+2023-10-30 20:13:00 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+2023-10-30 20:13:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/button_login")): Object: 'Object Repository/Page_Swag Labs/button_login' is clicked on
+
+2023-10-30 20:13:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/button_login' is clicked on
+
+2023-10-30 20:13:04 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Swag Labs/Error message username required"), 0): Object 'Object Repository/Page_Swag Labs/Error message username required' is present
+
+2023-10-30 20:13:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-30 20:13:04 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Swag Labs/Error message username required' is present
+
+2023-10-30 20:13:04 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-10-30 20:13:10 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login/TS.Log.001 TC.Log.001.008 User logout" time="16.852" classname="Test Cases/Login/TS.Log.001 TC.Log.001.008 User logout" status="PASSED">
+         <system-out><![CDATA[2023-10-30 20:13:10 - [TEST_CASE][PASSED] - Test Cases/Login/TS.Log.001 TC.Log.001.008 User logout: Test Cases/Login/TS.Log.001 TC.Log.001.008 User logout
+
+2023-10-30 20:13:11 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-10-30 20:13:11 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-10-30 20:13:11 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-10-30 20:13:14 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-10-30 20:13:14 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/"): Navigate to 'https://www.saucedemo.com/' successfully
+
+2023-10-30 20:13:15 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+2023-10-30 20:13:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Swag Labs/Username_field"), "standard_user"): Text 'standard_user' is set on object 'Object Repository/Page_Swag Labs/Username_field'
+
+2023-10-30 20:13:18 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Page_Swag Labs/Username_field'
+
+2023-10-30 20:13:18 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Swag Labs/Password_field"), "qcu24s4901FyWDTwXGr6XA=="): Text ****** has been set on object 'Object Repository/Page_Swag Labs/Password_field'
+
+2023-10-30 20:13:19 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Swag Labs/Password_field'
+
+2023-10-30 20:13:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/button_login")): Object: 'Object Repository/Page_Swag Labs/button_login' is clicked on
+
+2023-10-30 20:13:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/button_login' is clicked on
+
+2023-10-30 20:13:20 - [TEST_STEP][PASSED] - click(findTestObject("Page_Swag Labs/button_Open Menu")): Object: 'Object Repository/Page_Swag Labs/button_Open Menu' is clicked on
+
+2023-10-30 20:13:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/button_Open Menu' is clicked on
+
+2023-10-30 20:13:21 - [TEST_STEP][PASSED] - click(findTestObject("Page_Swag Labs/Logout")): Object: 'Object Repository/Page_Swag Labs/Logout' is clicked on
+
+2023-10-30 20:13:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/Logout' is clicked on
+
+2023-10-30 20:13:23 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Swag Labs/Login page Swag Labs"), 0): Object 'Object Repository/Page_Swag Labs/Login page Swag Labs' is present
+
+2023-10-30 20:13:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-30 20:13:24 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Swag Labs/Login page Swag Labs' is present
+
+2023-10-30 20:13:24 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-10-30 20:13:27 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-10-30 20:09:54 - [TEST_SUITE][PASSED] - Login Feature suite: Test Cases/Login/TS.Log.001 TC.Log.001.008 User logout]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+   <testsuite name="Cart Feature Suite" tests="5" failures="1" errors="0" time="164.114" skipped="0" timestamp="2023-10-30 20:13:36" hostname="Fajar - 192.168.173.1" id="Test Suites/Cart Feature Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Users\\Fajar\\git\\Testing_Saucedemo\\Reports\\20231030_200940\\Cart Feature Suite\\20231030_200943"/>
+         <property name="logFiles" value="D:\\Users\\Fajar\\git\\Testing_Saucedemo\\Reports\\20231030_200940\\Cart Feature Suite\\20231030_200943\\execution0.log"/>
+         <property name="attachments" value="D:\\Users\\Fajar\\git\\Testing_Saucedemo\\Reports\\20231030_200940\\Cart Feature Suite\\20231030_200943\\1698671666184.png, D:\\Users\\Fajar\\git\\Testing_Saucedemo\\Reports\\20231030_200940\\Cart Feature Suite\\20231030_200943\\1698671688177.png, D:\\Users\\Fajar\\git\\Testing_Saucedemo\\Reports\\20231030_200940\\Cart Feature Suite\\20231030_200943\\1698671707780.png, D:\\Users\\Fajar\\git\\Testing_Saucedemo\\Reports\\20231030_200940\\Cart Feature Suite\\20231030_200943\\1698671725194.png"/>
+         <property name="hostName" value="Fajar - 192.168.173.1"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.8.208"/>
+         <property name="browser" value="Chrome 118.0.0.0"/>
+         <property name="hostAddress" value="192.168.173.1"/>
+         <property name="sessionId" value="40093d6c658c386c83b4b4c6d0838b8a"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Cart/TS.Log.002 TC.Log.002.001 User add an Item to Cart" time="25.786" classname="Test Cases/Cart/TS.Log.002 TC.Log.002.001 User add an Item to Cart" status="PASSED">
+         <system-out><![CDATA[2023-10-30 20:13:37 - [TEST_CASE][PASSED] - Test Cases/Cart/TS.Log.002 TC.Log.002.001 User add an Item to Cart: Test Cases/Cart/TS.Log.002 TC.Log.002.001 User add an Item to Cart
+
+2023-10-30 20:13:38 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-10-30 20:13:39 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-10-30 20:13:39 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-10-30 20:13:44 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-10-30 20:13:44 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/"): Navigate to 'https://www.saucedemo.com/' successfully
+
+2023-10-30 20:13:46 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+2023-10-30 20:13:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Swag Labs/Username_field"), "standard_user"): Text 'standard_user' is set on object 'Object Repository/Page_Swag Labs/Username_field'
+
+2023-10-30 20:13:48 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Page_Swag Labs/Username_field'
+
+2023-10-30 20:13:48 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Swag Labs/Password_field"), "qcu24s4901FyWDTwXGr6XA=="): Text ****** has been set on object 'Object Repository/Page_Swag Labs/Password_field'
+
+2023-10-30 20:13:50 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Swag Labs/Password_field'
+
+2023-10-30 20:13:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/button_login")): Object: 'Object Repository/Page_Swag Labs/button_login' is clicked on
+
+2023-10-30 20:13:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/button_login' is clicked on
+
+2023-10-30 20:13:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/Title item Labs Backpack")): Object: 'Object Repository/Page_Swag Labs/Title item Labs Backpack' is clicked on
+
+2023-10-30 20:13:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/Title item Labs Backpack' is clicked on
+
+2023-10-30 20:13:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/button_Add to cart")): Object: 'Object Repository/Page_Swag Labs/button_Add to cart' is clicked on
+
+2023-10-30 20:13:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/button_Add to cart' is clicked on
+
+2023-10-30 20:13:54 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Swag Labs/Cart pop up number"), 0): Object 'Object Repository/Page_Swag Labs/Cart pop up number' is present
+
+2023-10-30 20:13:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-30 20:13:55 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Swag Labs/Cart pop up number' is present
+
+2023-10-30 20:13:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/Cart Icon")): Object: 'Object Repository/Page_Swag Labs/Cart Icon' is clicked on
+
+2023-10-30 20:13:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/Cart Icon' is clicked on
+
+2023-10-30 20:13:57 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Swag Labs/Title item Labs Backpack"), 0): Object 'Object Repository/Page_Swag Labs/Title item Labs Backpack' is present
+
+2023-10-30 20:13:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-30 20:13:58 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Swag Labs/Title item Labs Backpack' is present
+
+2023-10-30 20:13:58 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-10-30 20:14:02 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Cart/TS.Log.002 TC.Log.002.002 User change the quantity of the item in the cart to zero" time="17.359" classname="Test Cases/Cart/TS.Log.002 TC.Log.002.002 User change the quantity of the item in the cart to zero" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Cart/TS.Log.002 TC.Log.002.002 User change the quantity of the item in the cart to zero FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text '0' of object 'Object Repository/Page_Swag Labs/item quantity'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at TS.Log.002 TC.Log.002.002 User change the quantity of the item in the cart to zero.run(TS.Log.002 TC.Log.002.002 User change the quantity of the item in the cart to zero:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1698671383579.run(TempTestSuite1698671383579.groovy:36)
+Caused by: org.openqa.selenium.InvalidElementStateException: invalid element state
+  (Session info: chrome=118.0.5993.118)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'IRAWAN', ip: '192.168.173.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.118, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Users\Fajar\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61731}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1e122a0497f176f5e5f47ccab49115c3
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:124)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.clear(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.clear(EventFiringWebDriver.java:436)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:53)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+"/>
+         <system-out><![CDATA[2023-10-30 20:15:07 - [TEST_CASE][FAILED] - Test Cases/Cart/TS.Log.002 TC.Log.002.002 User change the quantity of the item in the cart to zero: Test Cases/Cart/TS.Log.002 TC.Log.002.002 User change the quantity of the item in the cart to zero FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text '0' of object 'Object Repository/Page_Swag Labs/item quantity'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at TS.Log.002 TC.Log.002.002 User change the quantity of the item in the cart to zero.run(TS.Log.002 TC.Log.002.002 User change the quantity of the item in the cart to zero:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1698671383579.run(TempTestSuite1698671383579.groovy:36)
+Caused by: org.openqa.selenium.InvalidElementStateException: invalid element state
+  (Session info: chrome=118.0.5993.118)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'IRAWAN', ip: '192.168.173.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.118, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Users\Fajar\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61731}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1e122a0497f176f5e5f47ccab49115c3
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:124)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.clear(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.clear(EventFiringWebDriver.java:436)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:53)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+
+
+2023-10-30 20:15:07 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-10-30 20:15:08 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-10-30 20:15:08 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-10-30 20:15:08 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-10-30 20:15:11 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-10-30 20:15:11 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/"): Navigate to 'https://www.saucedemo.com/' successfully
+
+2023-10-30 20:15:12 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+2023-10-30 20:15:12 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Swag Labs/Username_field"), "standard_user"): Text 'standard_user' is set on object 'Object Repository/Page_Swag Labs/Username_field'
+
+2023-10-30 20:15:16 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Page_Swag Labs/Username_field'
+
+2023-10-30 20:15:16 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_Swag Labs/Password_field"), "qcu24s4901FyWDTwXGr6XA=="): Text ****** has been set on object 'Object Repository/Page_Swag Labs/Password_field'
+
+2023-10-30 20:15:17 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Swag Labs/Password_field'
+
+2023-10-30 20:15:17 - [TEST_STEP][PASSED] - click(findTestObject("Page_Swag Labs/button_login")): Object: 'Object Repository/Page_Swag Labs/button_login' is clicked on
+
+2023-10-30 20:15:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/button_login' is clicked on
+
+2023-10-30 20:15:18 - [TEST_STEP][PASSED] - click(findTestObject("Page_Swag Labs/Title item Labs Backpack")): Object: 'Object Repository/Page_Swag Labs/Title item Labs Backpack' is clicked on
+
+2023-10-30 20:15:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/Title item Labs Backpack' is clicked on
+
+2023-10-30 20:15:20 - [TEST_STEP][PASSED] - click(findTestObject("Page_Swag Labs/button_Add to cart")): Object: 'Object Repository/Page_Swag Labs/button_Add to cart' is clicked on
+
+2023-10-30 20:15:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/button_Add to cart' is clicked on
+
+2023-10-30 20:15:21 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Swag Labs/Cart pop up number"), 0): Object 'Object Repository/Page_Swag Labs/Cart pop up number' is present
+
+2023-10-30 20:15:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-30 20:15:23 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Swag Labs/Cart pop up number' is present
+
+2023-10-30 20:15:23 - [TEST_STEP][PASSED] - click(findTestObject("Page_Swag Labs/Cart Icon")): Object: 'Object Repository/Page_Swag Labs/Cart Icon' is clicked on
+
+2023-10-30 20:15:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/Cart Icon' is clicked on
+
+2023-10-30 20:15:24 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Swag Labs/Title item Labs Backpack"), 0): Object 'Object Repository/Page_Swag Labs/Title item Labs Backpack' is present
+
+2023-10-30 20:15:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-30 20:15:24 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Swag Labs/Title item Labs Backpack' is present
+
+2023-10-30 20:15:24 - [TEST_STEP][FAILED] - setText(findTestObject("Page_Swag Labs/item quantity"), "0"): Unable to set text '0' of object 'Object Repository/Page_Swag Labs/item quantity' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text '0' of object 'Object Repository/Page_Swag Labs/item quantity'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at TS.Log.002 TC.Log.002.002 User change the quantity of the item in the cart to zero.run(TS.Log.002 TC.Log.002.002 User change the quantity of the item in the cart to zero:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1698671383579.run(TempTestSuite1698671383579.groovy:36)
+Caused by: org.openqa.selenium.InvalidElementStateException: invalid element state
+  (Session info: chrome=118.0.5993.118)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'IRAWAN', ip: '192.168.173.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.118, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Users\Fajar\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61731}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1e122a0497f176f5e5f47ccab49115c3
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:124)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.clear(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.clear(EventFiringWebDriver.java:436)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:53)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at Script1698024251193.run(Script1698024251193.groovy:40)
+	... 16 more
+)
+
+2023-10-30 20:15:25 - [MESSAGE][FAILED] - Unable to set text '0' of object 'Object Repository/Page_Swag Labs/item quantity' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text '0' of object 'Object Repository/Page_Swag Labs/item quantity'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at TS.Log.002 TC.Log.002.002 User change the quantity of the item in the cart to zero.run(TS.Log.002 TC.Log.002.002 User change the quantity of the item in the cart to zero:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1698671383579.run(TempTestSuite1698671383579.groovy:36)
+Caused by: org.openqa.selenium.InvalidElementStateException: invalid element state
+  (Session info: chrome=118.0.5993.118)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'IRAWAN', ip: '192.168.173.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.118, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Users\Fajar\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61731}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1e122a0497f176f5e5f47ccab49115c3
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:124)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.clear(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.clear(EventFiringWebDriver.java:436)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:53)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at Script1698024251193.run(Script1698024251193.groovy:40)
+	... 16 more
+)
+[[ATTACHMENT|D:\\Users\\Fajar\\git\\Testing_Saucedemo\\Reports\\20231030_200940\\Cart Feature Suite\\20231030_200943\\1698671725194.png]]]]></system-out>
+         <system-err><![CDATA[2023-10-30 20:15:07 - [TEST_CASE][FAILED] - Test Cases/Cart/TS.Log.002 TC.Log.002.002 User change the quantity of the item in the cart to zero: Test Cases/Cart/TS.Log.002 TC.Log.002.002 User change the quantity of the item in the cart to zero FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text '0' of object 'Object Repository/Page_Swag Labs/item quantity'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at TS.Log.002 TC.Log.002.002 User change the quantity of the item in the cart to zero.run(TS.Log.002 TC.Log.002.002 User change the quantity of the item in the cart to zero:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1698671383579.run(TempTestSuite1698671383579.groovy:36)
+Caused by: org.openqa.selenium.InvalidElementStateException: invalid element state
+  (Session info: chrome=118.0.5993.118)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'IRAWAN', ip: '192.168.173.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.118, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Users\Fajar\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61731}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1e122a0497f176f5e5f47ccab49115c3
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:124)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.clear(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.clear(EventFiringWebDriver.java:436)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:53)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Cart/TS.Log.002 TC.Log.002.003 User add an Item to Cart at dashboard" time="17.443" classname="Test Cases/Cart/TS.Log.002 TC.Log.002.003 User add an Item to Cart at dashboard" status="PASSED">
+         <system-out><![CDATA[2023-10-30 20:15:25 - [TEST_CASE][PASSED] - Test Cases/Cart/TS.Log.002 TC.Log.002.003 User add an Item to Cart at dashboard: Test Cases/Cart/TS.Log.002 TC.Log.002.003 User add an Item to Cart at dashboard
+
+2023-10-30 20:15:26 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-10-30 20:15:26 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2023-10-30 20:15:26 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-10-30 20:15:26 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-10-30 20:15:29 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-10-30 20:15:29 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/"): Navigate to 'https://www.saucedemo.com/' successfully
+
+2023-10-30 20:15:32 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+2023-10-30 20:15:32 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Swag Labs/Username_field"), "standard_user"): Text 'standard_user' is set on object 'Object Repository/Page_Swag Labs/Username_field'
+
+2023-10-30 20:15:34 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Page_Swag Labs/Username_field'
+
+2023-10-30 20:15:34 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Swag Labs/Password_field"), "qcu24s4901FyWDTwXGr6XA=="): Text ****** has been set on object 'Object Repository/Page_Swag Labs/Password_field'
+
+2023-10-30 20:15:35 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Swag Labs/Password_field'
+
+2023-10-30 20:15:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/button_login")): Object: 'Object Repository/Page_Swag Labs/button_login' is clicked on
+
+2023-10-30 20:15:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/button_login' is clicked on
+
+2023-10-30 20:15:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/button_Add to cart")): Object: 'Object Repository/Page_Swag Labs/button_Add to cart' is clicked on
+
+2023-10-30 20:15:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/button_Add to cart' is clicked on
+
+2023-10-30 20:15:38 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Swag Labs/Cart pop up number"), 0): Object 'Object Repository/Page_Swag Labs/Cart pop up number' is present
+
+2023-10-30 20:15:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-30 20:15:40 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Swag Labs/Cart pop up number' is present
+
+2023-10-30 20:15:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/Cart Icon")): Object: 'Object Repository/Page_Swag Labs/Cart Icon' is clicked on
+
+2023-10-30 20:15:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/Cart Icon' is clicked on
+
+2023-10-30 20:15:41 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Swag Labs/Title item Labs Backpack"), 0): Object 'Object Repository/Page_Swag Labs/Title item Labs Backpack' is present
+
+2023-10-30 20:15:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-30 20:15:41 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Swag Labs/Title item Labs Backpack' is present
+
+2023-10-30 20:15:41 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-10-30 20:15:42 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Cart/TS.Log.002 TC.Log.002.004 User remove Item on the cart" time="18.294" classname="Test Cases/Cart/TS.Log.002 TC.Log.002.004 User remove Item on the cart" status="PASSED">
+         <system-out><![CDATA[2023-10-30 20:15:42 - [TEST_CASE][PASSED] - Test Cases/Cart/TS.Log.002 TC.Log.002.004 User remove Item on the cart: Test Cases/Cart/TS.Log.002 TC.Log.002.004 User remove Item on the cart
+
+2023-10-30 20:15:43 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-10-30 20:15:43 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-10-30 20:15:43 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-10-30 20:15:46 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-10-30 20:15:46 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/"): Navigate to 'https://www.saucedemo.com/' successfully
+
+2023-10-30 20:15:47 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+2023-10-30 20:15:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Swag Labs/Username_field"), "standard_user"): Text 'standard_user' is set on object 'Object Repository/Page_Swag Labs/Username_field'
+
+2023-10-30 20:15:51 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Page_Swag Labs/Username_field'
+
+2023-10-30 20:15:51 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Swag Labs/Password_field"), "qcu24s4901FyWDTwXGr6XA=="): Text ****** has been set on object 'Object Repository/Page_Swag Labs/Password_field'
+
+2023-10-30 20:15:52 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Swag Labs/Password_field'
+
+2023-10-30 20:15:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/button_login")): Object: 'Object Repository/Page_Swag Labs/button_login' is clicked on
+
+2023-10-30 20:15:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/button_login' is clicked on
+
+2023-10-30 20:15:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/Title item Labs Backpack")): Object: 'Object Repository/Page_Swag Labs/Title item Labs Backpack' is clicked on
+
+2023-10-30 20:15:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/Title item Labs Backpack' is clicked on
+
+2023-10-30 20:15:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/button_Add to cart")): Object: 'Object Repository/Page_Swag Labs/button_Add to cart' is clicked on
+
+2023-10-30 20:15:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/button_Add to cart' is clicked on
+
+2023-10-30 20:15:56 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Swag Labs/Cart pop up number"), 0): Object 'Object Repository/Page_Swag Labs/Cart pop up number' is present
+
+2023-10-30 20:15:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-30 20:15:57 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Swag Labs/Cart pop up number' is present
+
+2023-10-30 20:15:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/Cart Icon")): Object: 'Object Repository/Page_Swag Labs/Cart Icon' is clicked on
+
+2023-10-30 20:15:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/Cart Icon' is clicked on
+
+2023-10-30 20:15:58 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Swag Labs/Title item Labs Backpack"), 0): Object 'Object Repository/Page_Swag Labs/Title item Labs Backpack' is present
+
+2023-10-30 20:15:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-30 20:15:58 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Swag Labs/Title item Labs Backpack' is present
+
+2023-10-30 20:15:58 - [TEST_STEP][PASSED] - click(findTestObject("Page_Swag Labs/button_Remove")): Object: 'Object Repository/Page_Swag Labs/button_Remove' is clicked on
+
+2023-10-30 20:15:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/button_Remove' is clicked on
+
+2023-10-30 20:15:59 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Page_Swag Labs/Title item Labs Backpack"), 0): Web element with id: 'Object Repository/Page_Swag Labs/Title item Labs Backpack' located by 'By.xpath: //a[@id='item_4_title_link']/div' is not present after '30' second(s)
+
+2023-10-30 20:15:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-30 20:16:00 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Page_Swag Labs/Title item Labs Backpack' located by 'By.xpath: //a[@id='item_4_title_link']/div' is not present after '30' second(s)
+
+2023-10-30 20:16:00 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-10-30 20:16:01 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Cart/TS.Log.002 TC.Log.002.005 User remove Item on the cart when at dashboard" time="19.28" classname="Test Cases/Cart/TS.Log.002 TC.Log.002.005 User remove Item on the cart when at dashboard" status="PASSED">
+         <system-out><![CDATA[2023-10-30 20:16:01 - [TEST_CASE][PASSED] - Test Cases/Cart/TS.Log.002 TC.Log.002.005 User remove Item on the cart when at dashboard: Test Cases/Cart/TS.Log.002 TC.Log.002.005 User remove Item on the cart when at dashboard
+
+2023-10-30 20:16:01 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-10-30 20:16:01 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-10-30 20:16:01 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-10-30 20:16:04 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-10-30 20:16:04 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/"): Navigate to 'https://www.saucedemo.com/' successfully
+
+2023-10-30 20:16:05 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+2023-10-30 20:16:05 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Swag Labs/Username_field"), "standard_user"): Text 'standard_user' is set on object 'Object Repository/Page_Swag Labs/Username_field'
+
+2023-10-30 20:16:08 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Page_Swag Labs/Username_field'
+
+2023-10-30 20:16:08 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Swag Labs/Password_field"), "qcu24s4901FyWDTwXGr6XA=="): Text ****** has been set on object 'Object Repository/Page_Swag Labs/Password_field'
+
+2023-10-30 20:16:09 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Swag Labs/Password_field'
+
+2023-10-30 20:16:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/button_login")): Object: 'Object Repository/Page_Swag Labs/button_login' is clicked on
+
+2023-10-30 20:16:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/button_login' is clicked on
+
+2023-10-30 20:16:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/button_Add to cart")): Object: 'Object Repository/Page_Swag Labs/button_Add to cart' is clicked on
+
+2023-10-30 20:16:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/button_Add to cart' is clicked on
+
+2023-10-30 20:16:12 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Swag Labs/Cart pop up number"), 0): Object 'Object Repository/Page_Swag Labs/Cart pop up number' is present
+
+2023-10-30 20:16:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-30 20:16:13 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Swag Labs/Cart pop up number' is present
+
+2023-10-30 20:16:13 - [TEST_STEP][PASSED] - click(findTestObject("Page_Swag Labs/button_Remove")): Object: 'Object Repository/Page_Swag Labs/button_Remove' is clicked on
+
+2023-10-30 20:16:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/button_Remove' is clicked on
+
+2023-10-30 20:16:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Swag Labs/Cart Icon")): Object: 'Object Repository/Page_Swag Labs/Cart Icon' is clicked on
+
+2023-10-30 20:16:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/Cart Icon' is clicked on
+
+2023-10-30 20:16:17 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Object Repository/Page_Swag Labs/Title item Labs Backpack"), 0): Web element with id: 'Object Repository/Page_Swag Labs/Title item Labs Backpack' located by 'By.xpath: //a[@id='item_4_title_link']/div' is not present after '30' second(s)
+
+2023-10-30 20:16:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-30 20:16:19 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Page_Swag Labs/Title item Labs Backpack' located by 'By.xpath: //a[@id='item_4_title_link']/div' is not present after '30' second(s)
+
+2023-10-30 20:16:19 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-10-30 20:16:20 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-10-30 20:13:36 - [TEST_SUITE][FAILED] - Cart Feature Suite: Test Cases/Cart/TS.Log.002 TC.Log.002.002 User change the quantity of the item in the cart to zero FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text '0' of object 'Object Repository/Page_Swag Labs/item quantity'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at TS.Log.002 TC.Log.002.002 User change the quantity of the item in the cart to zero.run(TS.Log.002 TC.Log.002.002 User change the quantity of the item in the cart to zero:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1698671383579.run(TempTestSuite1698671383579.groovy:36)
+Caused by: org.openqa.selenium.InvalidElementStateException: invalid element state
+  (Session info: chrome=118.0.5993.118)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'IRAWAN', ip: '192.168.173.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.118, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Users\Fajar\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61614}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1cdaca19778a9305596b517dd4b3e94e
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:124)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.clear(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.clear(EventFiringWebDriver.java:436)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:53)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2023-10-30 20:13:36 - [TEST_SUITE][FAILED] - Cart Feature Suite: Test Cases/Cart/TS.Log.002 TC.Log.002.002 User change the quantity of the item in the cart to zero FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text '0' of object 'Object Repository/Page_Swag Labs/item quantity'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:66)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:980)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at TS.Log.002 TC.Log.002.002 User change the quantity of the item in the cart to zero.run(TS.Log.002 TC.Log.002.002 User change the quantity of the item in the cart to zero:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:187)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1698671383579.run(TempTestSuite1698671383579.groovy:36)
+Caused by: org.openqa.selenium.InvalidElementStateException: invalid element state
+  (Session info: chrome=118.0.5993.118)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'IRAWAN', ip: '192.168.173.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_362'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 118.0.5993.118, chrome: {chromedriverVersion: 118.0.5993.70 (e52f33f30b91..., userDataDir: C:\Users\Fajar\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61614}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1cdaca19778a9305596b517dd4b3e94e
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:124)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.clear(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.clear(EventFiringWebDriver.java:436)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:53)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+   <testsuite name="Checkout Feature Suite" tests="5" failures="0" errors="0" time="123.804" skipped="0" timestamp="2023-10-30 20:16:28" hostname="Fajar - 192.168.173.1" id="Test Suites/Checkout Feature Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Users\\Fajar\\git\\Testing_Saucedemo\\Reports\\20231030_200940\\Checkout Feature Suite\\20231030_200945"/>
+         <property name="logFiles" value="D:\\Users\\Fajar\\git\\Testing_Saucedemo\\Reports\\20231030_200940\\Checkout Feature Suite\\20231030_200945\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Fajar - 192.168.173.1"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.8.208"/>
+         <property name="browser" value="Chrome 118.0.0.0"/>
+         <property name="hostAddress" value="192.168.173.1"/>
+         <property name="sessionId" value="1e4249a7ea93c685c7558522462d5569"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Checkout/TS.Log.003 TC.Log.003.001 User checkout the item in the cart" time="31.124" classname="Test Cases/Checkout/TS.Log.003 TC.Log.003.001 User checkout the item in the cart" status="PASSED">
+         <system-out><![CDATA[2023-10-30 20:16:28 - [TEST_CASE][PASSED] - Test Cases/Checkout/TS.Log.003 TC.Log.003.001 User checkout the item in the cart: Test Cases/Checkout/TS.Log.003 TC.Log.003.001 User checkout the item in the cart
+
+2023-10-30 20:16:30 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-10-30 20:16:30 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-10-30 20:16:31 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-10-30 20:16:37 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-10-30 20:16:37 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/"): Navigate to 'https://www.saucedemo.com/' successfully
+
+2023-10-30 20:16:38 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+2023-10-30 20:16:38 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Swag Labs/Username_field"), "standard_user"): Text 'standard_user' is set on object 'Object Repository/Page_Swag Labs/Username_field'
+
+2023-10-30 20:16:42 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Page_Swag Labs/Username_field'
+
+2023-10-30 20:16:42 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_Swag Labs/Password_field"), "qcu24s4901FyWDTwXGr6XA=="): Text ****** has been set on object 'Object Repository/Page_Swag Labs/Password_field'
+
+2023-10-30 20:16:43 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Swag Labs/Password_field'
+
+2023-10-30 20:16:43 - [TEST_STEP][PASSED] - click(findTestObject("Page_Swag Labs/button_login")): Object: 'Object Repository/Page_Swag Labs/button_login' is clicked on
+
+2023-10-30 20:16:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/button_login' is clicked on
+
+2023-10-30 20:16:45 - [TEST_STEP][PASSED] - click(findTestObject("Page_Swag Labs/Title item Labs Backpack")): Object: 'Object Repository/Page_Swag Labs/Title item Labs Backpack' is clicked on
+
+2023-10-30 20:16:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/Title item Labs Backpack' is clicked on
+
+2023-10-30 20:16:46 - [TEST_STEP][PASSED] - click(findTestObject("Page_Swag Labs/button_Add to cart")): Object: 'Object Repository/Page_Swag Labs/button_Add to cart' is clicked on
+
+2023-10-30 20:16:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/button_Add to cart' is clicked on
+
+2023-10-30 20:16:48 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Swag Labs/Cart pop up number"), 0): Object 'Object Repository/Page_Swag Labs/Cart pop up number' is present
+
+2023-10-30 20:16:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-30 20:16:50 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Swag Labs/Cart pop up number' is present
+
+2023-10-30 20:16:50 - [TEST_STEP][PASSED] - click(findTestObject("Page_Swag Labs/Cart Icon")): Object: 'Object Repository/Page_Swag Labs/Cart Icon' is clicked on
+
+2023-10-30 20:16:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/Cart Icon' is clicked on
+
+2023-10-30 20:16:51 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Swag Labs/Title item Labs Backpack"), 0): Object 'Object Repository/Page_Swag Labs/Title item Labs Backpack' is present
+
+2023-10-30 20:16:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-30 20:16:53 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Swag Labs/Title item Labs Backpack' is present
+
+2023-10-30 20:16:53 - [TEST_STEP][PASSED] - click(findTestObject("Page_Swag Labs/button Checkout")): Object: 'Object Repository/Page_Swag Labs/button Checkout' is clicked on
+
+2023-10-30 20:16:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/button Checkout' is clicked on
+
+2023-10-30 20:16:53 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Swag Labs/firstName field"), "Fajar"): Text 'Fajar' is set on object 'Object Repository/Page_Swag Labs/firstName field'
+
+2023-10-30 20:16:54 - [MESSAGE][PASSED] - Text 'Fajar' is set on object 'Object Repository/Page_Swag Labs/firstName field'
+
+2023-10-30 20:16:54 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Swag Labs/lastName field"), "Irawan"): Text 'Irawan' is set on object 'Object Repository/Page_Swag Labs/lastName field'
+
+2023-10-30 20:16:56 - [MESSAGE][PASSED] - Text 'Irawan' is set on object 'Object Repository/Page_Swag Labs/lastName field'
+
+2023-10-30 20:16:56 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Swag Labs/postalCode field"), "15151"): Text '15151' is set on object 'Object Repository/Page_Swag Labs/postalCode field'
+
+2023-10-30 20:16:57 - [MESSAGE][PASSED] - Text '15151' is set on object 'Object Repository/Page_Swag Labs/postalCode field'
+
+2023-10-30 20:16:57 - [TEST_STEP][PASSED] - click(findTestObject("Page_Swag Labs/button Continue")): Object: 'Object Repository/Page_Swag Labs/button Continue' is clicked on
+
+2023-10-30 20:16:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/button Continue' is clicked on
+
+2023-10-30 20:16:57 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Swag Labs/order information"), 0): Object 'Object Repository/Page_Swag Labs/order information' is present
+
+2023-10-30 20:16:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-30 20:16:58 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Swag Labs/order information' is present
+
+2023-10-30 20:16:58 - [TEST_STEP][PASSED] - click(findTestObject("Page_Swag Labs/button Finish")): Object: 'Object Repository/Page_Swag Labs/button Finish' is clicked on
+
+2023-10-30 20:16:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/button Finish' is clicked on
+
+2023-10-30 20:16:58 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Swag Labs/Text Checkout Complete"), 0): Object 'Object Repository/Page_Swag Labs/Text Checkout Complete' is present
+
+2023-10-30 20:16:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-30 20:16:59 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Swag Labs/Text Checkout Complete' is present
+
+2023-10-30 20:16:59 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-10-30 20:17:00 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Checkout/TS.Log.003 TC.Log.003.002 User checkout the items without filling the first name field" time="26.646" classname="Test Cases/Checkout/TS.Log.003 TC.Log.003.002 User checkout the items without filling the first name field" status="PASSED">
+         <system-out><![CDATA[2023-10-30 20:17:00 - [TEST_CASE][PASSED] - Test Cases/Checkout/TS.Log.003 TC.Log.003.002 User checkout the items without filling the first name field: Test Cases/Checkout/TS.Log.003 TC.Log.003.002 User checkout the items without filling the first name field
+
+2023-10-30 20:17:00 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-10-30 20:17:00 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-10-30 20:17:00 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-10-30 20:17:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-10-30 20:17:03 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/"): Navigate to 'https://www.saucedemo.com/' successfully
+
+2023-10-30 20:17:07 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+2023-10-30 20:17:07 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Swag Labs/Username_field"), "standard_user"): Text 'standard_user' is set on object 'Object Repository/Page_Swag Labs/Username_field'
+
+2023-10-30 20:17:10 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Page_Swag Labs/Username_field'
+
+2023-10-30 20:17:10 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_Swag Labs/Password_field"), "qcu24s4901FyWDTwXGr6XA=="): Text ****** has been set on object 'Object Repository/Page_Swag Labs/Password_field'
+
+2023-10-30 20:17:12 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Swag Labs/Password_field'
+
+2023-10-30 20:17:12 - [TEST_STEP][PASSED] - click(findTestObject("Page_Swag Labs/button_login")): Object: 'Object Repository/Page_Swag Labs/button_login' is clicked on
+
+2023-10-30 20:17:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/button_login' is clicked on
+
+2023-10-30 20:17:14 - [TEST_STEP][PASSED] - click(findTestObject("Page_Swag Labs/Title item Labs Backpack")): Object: 'Object Repository/Page_Swag Labs/Title item Labs Backpack' is clicked on
+
+2023-10-30 20:17:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/Title item Labs Backpack' is clicked on
+
+2023-10-30 20:17:15 - [TEST_STEP][PASSED] - click(findTestObject("Page_Swag Labs/button_Add to cart")): Object: 'Object Repository/Page_Swag Labs/button_Add to cart' is clicked on
+
+2023-10-30 20:17:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/button_Add to cart' is clicked on
+
+2023-10-30 20:17:17 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Swag Labs/Cart pop up number"), 0): Object 'Object Repository/Page_Swag Labs/Cart pop up number' is present
+
+2023-10-30 20:17:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-30 20:17:19 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Swag Labs/Cart pop up number' is present
+
+2023-10-30 20:17:19 - [TEST_STEP][PASSED] - click(findTestObject("Page_Swag Labs/Cart Icon")): Object: 'Object Repository/Page_Swag Labs/Cart Icon' is clicked on
+
+2023-10-30 20:17:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/Cart Icon' is clicked on
+
+2023-10-30 20:17:21 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Swag Labs/Title item Labs Backpack"), 0): Object 'Object Repository/Page_Swag Labs/Title item Labs Backpack' is present
+
+2023-10-30 20:17:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-30 20:17:21 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Swag Labs/Title item Labs Backpack' is present
+
+2023-10-30 20:17:21 - [TEST_STEP][PASSED] - click(findTestObject("Page_Swag Labs/button Checkout")): Object: 'Object Repository/Page_Swag Labs/button Checkout' is clicked on
+
+2023-10-30 20:17:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/button Checkout' is clicked on
+
+2023-10-30 20:17:22 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Swag Labs/lastName field"), "Irawan"): Text 'Irawan' is set on object 'Object Repository/Page_Swag Labs/lastName field'
+
+2023-10-30 20:17:23 - [MESSAGE][PASSED] - Text 'Irawan' is set on object 'Object Repository/Page_Swag Labs/lastName field'
+
+2023-10-30 20:17:23 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Swag Labs/postalCode field"), "15151"): Text '15151' is set on object 'Object Repository/Page_Swag Labs/postalCode field'
+
+2023-10-30 20:17:24 - [MESSAGE][PASSED] - Text '15151' is set on object 'Object Repository/Page_Swag Labs/postalCode field'
+
+2023-10-30 20:17:24 - [TEST_STEP][PASSED] - click(findTestObject("Page_Swag Labs/button Continue")): Object: 'Object Repository/Page_Swag Labs/button Continue' is clicked on
+
+2023-10-30 20:17:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/button Continue' is clicked on
+
+2023-10-30 20:17:24 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Swag Labs/error message first name required"), 0): Object 'Object Repository/Page_Swag Labs/error message first name required' is present
+
+2023-10-30 20:17:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-30 20:17:25 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Swag Labs/error message first name required' is present
+
+2023-10-30 20:17:25 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-10-30 20:17:26 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Checkout/TS.Log.003 TC.Log.003.003 User checkout the items without filling the second name field" time="22.972" classname="Test Cases/Checkout/TS.Log.003 TC.Log.003.003 User checkout the items without filling the second name field" status="PASSED">
+         <system-out><![CDATA[2023-10-30 20:17:26 - [TEST_CASE][PASSED] - Test Cases/Checkout/TS.Log.003 TC.Log.003.003 User checkout the items without filling the second name field: Test Cases/Checkout/TS.Log.003 TC.Log.003.003 User checkout the items without filling the second name field
+
+2023-10-30 20:17:27 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-10-30 20:17:27 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-10-30 20:17:27 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-10-30 20:17:30 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-10-30 20:17:30 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/"): Navigate to 'https://www.saucedemo.com/' successfully
+
+2023-10-30 20:17:31 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+2023-10-30 20:17:31 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Swag Labs/Username_field"), "standard_user"): Text 'standard_user' is set on object 'Object Repository/Page_Swag Labs/Username_field'
+
+2023-10-30 20:17:34 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Page_Swag Labs/Username_field'
+
+2023-10-30 20:17:34 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_Swag Labs/Password_field"), "qcu24s4901FyWDTwXGr6XA=="): Text ****** has been set on object 'Object Repository/Page_Swag Labs/Password_field'
+
+2023-10-30 20:17:35 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Swag Labs/Password_field'
+
+2023-10-30 20:17:35 - [TEST_STEP][PASSED] - click(findTestObject("Page_Swag Labs/button_login")): Object: 'Object Repository/Page_Swag Labs/button_login' is clicked on
+
+2023-10-30 20:17:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/button_login' is clicked on
+
+2023-10-30 20:17:36 - [TEST_STEP][PASSED] - click(findTestObject("Page_Swag Labs/Title item Labs Backpack")): Object: 'Object Repository/Page_Swag Labs/Title item Labs Backpack' is clicked on
+
+2023-10-30 20:17:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/Title item Labs Backpack' is clicked on
+
+2023-10-30 20:17:38 - [TEST_STEP][PASSED] - click(findTestObject("Page_Swag Labs/button_Add to cart")): Object: 'Object Repository/Page_Swag Labs/button_Add to cart' is clicked on
+
+2023-10-30 20:17:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/button_Add to cart' is clicked on
+
+2023-10-30 20:17:39 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Swag Labs/Cart pop up number"), 0): Object 'Object Repository/Page_Swag Labs/Cart pop up number' is present
+
+2023-10-30 20:17:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-30 20:17:40 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Swag Labs/Cart pop up number' is present
+
+2023-10-30 20:17:40 - [TEST_STEP][PASSED] - click(findTestObject("Page_Swag Labs/Cart Icon")): Object: 'Object Repository/Page_Swag Labs/Cart Icon' is clicked on
+
+2023-10-30 20:17:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/Cart Icon' is clicked on
+
+2023-10-30 20:17:42 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Swag Labs/Title item Labs Backpack"), 0): Object 'Object Repository/Page_Swag Labs/Title item Labs Backpack' is present
+
+2023-10-30 20:17:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-30 20:17:43 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Swag Labs/Title item Labs Backpack' is present
+
+2023-10-30 20:17:43 - [TEST_STEP][PASSED] - click(findTestObject("Page_Swag Labs/button Checkout")): Object: 'Object Repository/Page_Swag Labs/button Checkout' is clicked on
+
+2023-10-30 20:17:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/button Checkout' is clicked on
+
+2023-10-30 20:17:45 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Swag Labs/firstName field"), "Fajar"): Text 'Fajar' is set on object 'Object Repository/Page_Swag Labs/firstName field'
+
+2023-10-30 20:17:46 - [MESSAGE][PASSED] - Text 'Fajar' is set on object 'Object Repository/Page_Swag Labs/firstName field'
+
+2023-10-30 20:17:46 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Swag Labs/postalCode field"), "15151"): Text '15151' is set on object 'Object Repository/Page_Swag Labs/postalCode field'
+
+2023-10-30 20:17:47 - [MESSAGE][PASSED] - Text '15151' is set on object 'Object Repository/Page_Swag Labs/postalCode field'
+
+2023-10-30 20:17:47 - [TEST_STEP][PASSED] - click(findTestObject("Page_Swag Labs/button Continue")): Object: 'Object Repository/Page_Swag Labs/button Continue' is clicked on
+
+2023-10-30 20:17:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/button Continue' is clicked on
+
+2023-10-30 20:17:48 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Swag Labs/error message second name required"), 0): Object 'Object Repository/Page_Swag Labs/error message second name required' is present
+
+2023-10-30 20:17:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-30 20:17:48 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Swag Labs/error message second name required' is present
+
+2023-10-30 20:17:48 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-10-30 20:17:49 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Checkout/TS.Log.003 TC.Log.003.004 User checkout the items without filling the zip code field" time="22.891" classname="Test Cases/Checkout/TS.Log.003 TC.Log.003.004 User checkout the items without filling the zip code field" status="PASSED">
+         <system-out><![CDATA[2023-10-30 20:17:49 - [TEST_CASE][PASSED] - Test Cases/Checkout/TS.Log.003 TC.Log.003.004 User checkout the items without filling the zip code field: Test Cases/Checkout/TS.Log.003 TC.Log.003.004 User checkout the items without filling the zip code field
+
+2023-10-30 20:17:50 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-10-30 20:17:50 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-10-30 20:17:50 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-10-30 20:17:53 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-10-30 20:17:53 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/"): Navigate to 'https://www.saucedemo.com/' successfully
+
+2023-10-30 20:17:53 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+2023-10-30 20:17:53 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Swag Labs/Username_field"), "standard_user"): Text 'standard_user' is set on object 'Object Repository/Page_Swag Labs/Username_field'
+
+2023-10-30 20:17:57 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Page_Swag Labs/Username_field'
+
+2023-10-30 20:17:57 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_Swag Labs/Password_field"), "qcu24s4901FyWDTwXGr6XA=="): Text ****** has been set on object 'Object Repository/Page_Swag Labs/Password_field'
+
+2023-10-30 20:17:58 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Swag Labs/Password_field'
+
+2023-10-30 20:17:58 - [TEST_STEP][PASSED] - click(findTestObject("Page_Swag Labs/button_login")): Object: 'Object Repository/Page_Swag Labs/button_login' is clicked on
+
+2023-10-30 20:17:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/button_login' is clicked on
+
+2023-10-30 20:17:59 - [TEST_STEP][PASSED] - click(findTestObject("Page_Swag Labs/Title item Labs Backpack")): Object: 'Object Repository/Page_Swag Labs/Title item Labs Backpack' is clicked on
+
+2023-10-30 20:18:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/Title item Labs Backpack' is clicked on
+
+2023-10-30 20:18:01 - [TEST_STEP][PASSED] - click(findTestObject("Page_Swag Labs/button_Add to cart")): Object: 'Object Repository/Page_Swag Labs/button_Add to cart' is clicked on
+
+2023-10-30 20:18:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/button_Add to cart' is clicked on
+
+2023-10-30 20:18:03 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Swag Labs/Cart pop up number"), 0): Object 'Object Repository/Page_Swag Labs/Cart pop up number' is present
+
+2023-10-30 20:18:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-30 20:18:04 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Swag Labs/Cart pop up number' is present
+
+2023-10-30 20:18:04 - [TEST_STEP][PASSED] - click(findTestObject("Page_Swag Labs/Cart Icon")): Object: 'Object Repository/Page_Swag Labs/Cart Icon' is clicked on
+
+2023-10-30 20:18:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/Cart Icon' is clicked on
+
+2023-10-30 20:18:05 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Swag Labs/Title item Labs Backpack"), 0): Object 'Object Repository/Page_Swag Labs/Title item Labs Backpack' is present
+
+2023-10-30 20:18:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-30 20:18:06 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Swag Labs/Title item Labs Backpack' is present
+
+2023-10-30 20:18:06 - [TEST_STEP][PASSED] - click(findTestObject("Page_Swag Labs/button Checkout")): Object: 'Object Repository/Page_Swag Labs/button Checkout' is clicked on
+
+2023-10-30 20:18:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/button Checkout' is clicked on
+
+2023-10-30 20:18:08 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Swag Labs/firstName field"), "Fajar"): Text 'Fajar' is set on object 'Object Repository/Page_Swag Labs/firstName field'
+
+2023-10-30 20:18:09 - [MESSAGE][PASSED] - Text 'Fajar' is set on object 'Object Repository/Page_Swag Labs/firstName field'
+
+2023-10-30 20:18:09 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Swag Labs/lastName field"), "Irawan"): Text 'Irawan' is set on object 'Object Repository/Page_Swag Labs/lastName field'
+
+2023-10-30 20:18:10 - [MESSAGE][PASSED] - Text 'Irawan' is set on object 'Object Repository/Page_Swag Labs/lastName field'
+
+2023-10-30 20:18:10 - [TEST_STEP][PASSED] - click(findTestObject("Page_Swag Labs/button Continue")): Object: 'Object Repository/Page_Swag Labs/button Continue' is clicked on
+
+2023-10-30 20:18:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/button Continue' is clicked on
+
+2023-10-30 20:18:11 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Swag Labs/error message second zip required"), 0): Object 'Object Repository/Page_Swag Labs/error message second zip required' is present
+
+2023-10-30 20:18:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-30 20:18:11 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Swag Labs/error message second zip required' is present
+
+2023-10-30 20:18:11 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-10-30 20:18:12 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Checkout/TS.Log.003 TC.Log.003.005 User checkout the items without filling user information" time="19.302" classname="Test Cases/Checkout/TS.Log.003 TC.Log.003.005 User checkout the items without filling user information" status="PASSED">
+         <system-out><![CDATA[2023-10-30 20:18:12 - [TEST_CASE][PASSED] - Test Cases/Checkout/TS.Log.003 TC.Log.003.005 User checkout the items without filling user information: Test Cases/Checkout/TS.Log.003 TC.Log.003.005 User checkout the items without filling user information
+
+2023-10-30 20:18:13 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-10-30 20:18:13 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-10-30 20:18:13 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-10-30 20:18:16 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-10-30 20:18:16 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/"): Navigate to 'https://www.saucedemo.com/' successfully
+
+2023-10-30 20:18:18 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/' successfully
+
+2023-10-30 20:18:18 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Swag Labs/Username_field"), "standard_user"): Text 'standard_user' is set on object 'Object Repository/Page_Swag Labs/Username_field'
+
+2023-10-30 20:18:20 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/Page_Swag Labs/Username_field'
+
+2023-10-30 20:18:20 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_Swag Labs/Password_field"), "qcu24s4901FyWDTwXGr6XA=="): Text ****** has been set on object 'Object Repository/Page_Swag Labs/Password_field'
+
+2023-10-30 20:18:21 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Swag Labs/Password_field'
+
+2023-10-30 20:18:21 - [TEST_STEP][PASSED] - click(findTestObject("Page_Swag Labs/button_login")): Object: 'Object Repository/Page_Swag Labs/button_login' is clicked on
+
+2023-10-30 20:18:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/button_login' is clicked on
+
+2023-10-30 20:18:22 - [TEST_STEP][PASSED] - click(findTestObject("Page_Swag Labs/Title item Labs Backpack")): Object: 'Object Repository/Page_Swag Labs/Title item Labs Backpack' is clicked on
+
+2023-10-30 20:18:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/Title item Labs Backpack' is clicked on
+
+2023-10-30 20:18:23 - [TEST_STEP][PASSED] - click(findTestObject("Page_Swag Labs/button_Add to cart")): Object: 'Object Repository/Page_Swag Labs/button_Add to cart' is clicked on
+
+2023-10-30 20:18:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/button_Add to cart' is clicked on
+
+2023-10-30 20:18:25 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Swag Labs/Cart pop up number"), 0): Object 'Object Repository/Page_Swag Labs/Cart pop up number' is present
+
+2023-10-30 20:18:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-30 20:18:26 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Swag Labs/Cart pop up number' is present
+
+2023-10-30 20:18:26 - [TEST_STEP][PASSED] - click(findTestObject("Page_Swag Labs/Cart Icon")): Object: 'Object Repository/Page_Swag Labs/Cart Icon' is clicked on
+
+2023-10-30 20:18:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/Cart Icon' is clicked on
+
+2023-10-30 20:18:27 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Swag Labs/Title item Labs Backpack"), 0): Object 'Object Repository/Page_Swag Labs/Title item Labs Backpack' is present
+
+2023-10-30 20:18:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-30 20:18:28 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Swag Labs/Title item Labs Backpack' is present
+
+2023-10-30 20:18:28 - [TEST_STEP][PASSED] - click(findTestObject("Page_Swag Labs/button Checkout")): Object: 'Object Repository/Page_Swag Labs/button Checkout' is clicked on
+
+2023-10-30 20:18:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/button Checkout' is clicked on
+
+2023-10-30 20:18:28 - [TEST_STEP][PASSED] - click(findTestObject("Page_Swag Labs/button Continue")): Object: 'Object Repository/Page_Swag Labs/button Continue' is clicked on
+
+2023-10-30 20:18:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Swag Labs/button Continue' is clicked on
+
+2023-10-30 20:18:29 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_Swag Labs/error message first name required"), 0): Object 'Object Repository/Page_Swag Labs/error message first name required' is present
+
+2023-10-30 20:18:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-10-30 20:18:31 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Swag Labs/error message first name required' is present
+
+2023-10-30 20:18:31 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-10-30 20:18:31 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-10-30 20:16:28 - [TEST_SUITE][PASSED] - Checkout Feature Suite: Test Cases/Checkout/TS.Log.003 TC.Log.003.005 User checkout the items without filling user information]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

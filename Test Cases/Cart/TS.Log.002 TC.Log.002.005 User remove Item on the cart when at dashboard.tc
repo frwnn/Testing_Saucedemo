@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TS.Log.002 TC.Log.002.005 User remove Item on the cart when at dashboard</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a97fa812-2fcf-4b8c-b723-fa2b6e163093</testCaseGuid>
+</TestCaseEntity>

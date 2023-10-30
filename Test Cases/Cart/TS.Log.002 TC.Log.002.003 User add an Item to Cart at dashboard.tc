@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TS.Log.002 TC.Log.002.003 User add an Item to Cart at dashboard</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2e7e3df3-4503-42de-a40c-1000e2fb22e3</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,71 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login Feature suite,Chrome 118.0.0.0,,,2023-10-30 20:09:54,2023-10-30 20:13:27,3m - 32.757s,PASSED
+,,,,,,,
+Test Cases/Login/TS.Log.001 TC.Log.001.001 User login with valid credential,Chrome 118.0.0.0,,,2023-10-30 20:09:55,2023-10-30 20:10:19,23.929s,PASSED
+"openBrowser("""")",Chrome 118.0.0.0,,,2023-10-30 20:09:56,2023-10-30 20:10:02,6.173s,PASSED
+"navigateToUrl(""https://www.saucedemo.com/"")",Chrome 118.0.0.0,,,2023-10-30 20:10:02,2023-10-30 20:10:05,2.824s,PASSED
+"setText(findTestObject(""Object Repository/Page_Swag Labs/Username_field""), ""standard_user"")",Chrome 118.0.0.0,,,2023-10-30 20:10:05,2023-10-30 20:10:09,3.359s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Swag Labs/Password_field""), ""qcu24s4901FyWDTwXGr6XA=="")",Chrome 118.0.0.0,,,2023-10-30 20:10:09,2023-10-30 20:10:10,1.377s,PASSED
+"click(findTestObject(""Object Repository/Page_Swag Labs/button_login""))",Chrome 118.0.0.0,,,2023-10-30 20:10:10,2023-10-30 20:10:11,1.329s,PASSED
+closeBrowser(),Chrome 118.0.0.0,,,2023-10-30 20:10:11,2023-10-30 20:10:19,7.676s,PASSED
+,,,,,,,
+Test Cases/Login/TS.Log.001 TC.Log.001.002 User login with unregistered username and password,Chrome 118.0.0.0,,,2023-10-30 20:10:19,2023-10-30 20:11:00,40.742s,PASSED
+"openBrowser("""")",Chrome 118.0.0.0,,,2023-10-30 20:10:20,2023-10-30 20:10:23,2.773s,PASSED
+"navigateToUrl(""https://www.saucedemo.com/"")",Chrome 118.0.0.0,,,2023-10-30 20:10:23,2023-10-30 20:10:24,1.300s,PASSED
+"setText(findTestObject(""Page_Swag Labs/Username_field""), ""test salah"")",Chrome 118.0.0.0,,,2023-10-30 20:10:24,2023-10-30 20:10:27,2.824s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Swag Labs/Password_field""), ""xDH/NDxr8Nk91RcxWnF9Qg=="")",Chrome 118.0.0.0,,,2023-10-30 20:10:27,2023-10-30 20:10:28,0.940s,PASSED
+"click(findTestObject(""Object Repository/Page_Swag Labs/button_login""))",Chrome 118.0.0.0,,,2023-10-30 20:10:28,2023-10-30 20:10:28,0.874s,PASSED
+"verifyElementPresent(findTestObject(""Page_Swag Labs/Error message login""), 0)",Chrome 118.0.0.0,,,2023-10-30 20:10:28,2023-10-30 20:10:59,30.289s,PASSED
+closeBrowser(),Chrome 118.0.0.0,,,2023-10-30 20:10:59,2023-10-30 20:11:00,0.968s,PASSED
+,,,,,,,
+Test Cases/Login/TS.Log.001 TC.Log.001.003 User login with unregistered username and valid password,Chrome 118.0.0.0,,,2023-10-30 20:11:00,2023-10-30 20:11:42,41.918s,PASSED
+"openBrowser("""")",Chrome 118.0.0.0,,,2023-10-30 20:11:01,2023-10-30 20:11:03,2.614s,PASSED
+"navigateToUrl(""https://www.saucedemo.com/"")",Chrome 118.0.0.0,,,2023-10-30 20:11:03,2023-10-30 20:11:04,1.371s,PASSED
+"setText(findTestObject(""Page_Swag Labs/Username_field""), ""test salah"")",Chrome 118.0.0.0,,,2023-10-30 20:11:04,2023-10-30 20:11:08,3.873s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Swag Labs/Password_field""), ""qcu24s4901FyWDTwXGr6XA=="")",Chrome 118.0.0.0,,,2023-10-30 20:11:08,2023-10-30 20:11:09,0.944s,PASSED
+"click(findTestObject(""Object Repository/Page_Swag Labs/button_login""))",Chrome 118.0.0.0,,,2023-10-30 20:11:09,2023-10-30 20:11:10,1.073s,PASSED
+"verifyElementPresent(findTestObject(""Page_Swag Labs/Error message login""), 0)",Chrome 118.0.0.0,,,2023-10-30 20:11:10,2023-10-30 20:11:41,30.292s,PASSED
+closeBrowser(),Chrome 118.0.0.0,,,2023-10-30 20:11:41,2023-10-30 20:11:42,0.998s,PASSED
+,,,,,,,
+Test Cases/Login/TS.Log.001 TC.Log.001.004 User login with registered username and invalid password,Chrome 118.0.0.0,,,2023-10-30 20:11:42,2023-10-30 20:12:22,40.487s,PASSED
+"openBrowser("""")",Chrome 118.0.0.0,,,2023-10-30 20:11:42,2023-10-30 20:11:45,2.621s,PASSED
+"navigateToUrl(""https://www.saucedemo.com/"")",Chrome 118.0.0.0,,,2023-10-30 20:11:45,2023-10-30 20:11:46,0.435s,PASSED
+"setText(findTestObject(""Page_Swag Labs/Username_field""), ""standard_user"")",Chrome 118.0.0.0,,,2023-10-30 20:11:46,2023-10-30 20:11:49,3.493s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Swag Labs/Password_field""), ""FMpJ+xZn0jDKm5OtYfOeUQ=="")",Chrome 118.0.0.0,,,2023-10-30 20:11:49,2023-10-30 20:11:50,0.980s,PASSED
+"click(findTestObject(""Object Repository/Page_Swag Labs/button_login""))",Chrome 118.0.0.0,,,2023-10-30 20:11:50,2023-10-30 20:11:51,0.947s,PASSED
+"verifyElementPresent(findTestObject(""Page_Swag Labs/Error message login""), 0)",Chrome 118.0.0.0,,,2023-10-30 20:11:51,2023-10-30 20:12:21,30.290s,PASSED
+closeBrowser(),Chrome 118.0.0.0,,,2023-10-30 20:12:21,2023-10-30 20:12:22,0.927s,PASSED
+,,,,,,,
+Test Cases/Login/TS.Log.001 TC.Log.001.005 User click login without filling password,Chrome 118.0.0.0,,,2023-10-30 20:12:22,2023-10-30 20:12:39,16.435s,PASSED
+"openBrowser("""")",Chrome 118.0.0.0,,,2023-10-30 20:12:23,2023-10-30 20:12:26,2.604s,PASSED
+"navigateToUrl(""https://www.saucedemo.com/"")",Chrome 118.0.0.0,,,2023-10-30 20:12:26,2023-10-30 20:12:26,0.418s,PASSED
+"setText(findTestObject(""Page_Swag Labs/Username_field""), ""standard_user"")",Chrome 118.0.0.0,,,2023-10-30 20:12:26,2023-10-30 20:12:30,3.715s,PASSED
+"click(findTestObject(""Object Repository/Page_Swag Labs/button_login""))",Chrome 118.0.0.0,,,2023-10-30 20:12:30,2023-10-30 20:12:31,0.880s,PASSED
+"verifyElementPresent(findTestObject(""Page_Swag Labs/Error message password required""), 0)",Chrome 118.0.0.0,,,2023-10-30 20:12:31,2023-10-30 20:12:31,0.636s,PASSED
+closeBrowser(),Chrome 118.0.0.0,,,2023-10-30 20:12:31,2023-10-30 20:12:39,7.397s,PASSED
+,,,,,,,
+Test Cases/Login/TS.Log.001 TC.Log.001.006 User click login without filling username,Chrome 118.0.0.0,,,2023-10-30 20:12:39,2023-10-30 20:12:55,15.964s,PASSED
+"openBrowser("""")",Chrome 118.0.0.0,,,2023-10-30 20:12:39,2023-10-30 20:12:42,2.760s,PASSED
+"navigateToUrl(""https://www.saucedemo.com/"")",Chrome 118.0.0.0,,,2023-10-30 20:12:42,2023-10-30 20:12:43,1.147s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Swag Labs/Password_field""), ""qcu24s4901FyWDTwXGr6XA=="")",Chrome 118.0.0.0,,,2023-10-30 20:12:43,2023-10-30 20:12:46,2.243s,PASSED
+"click(findTestObject(""Object Repository/Page_Swag Labs/button_login""))",Chrome 118.0.0.0,,,2023-10-30 20:12:46,2023-10-30 20:12:46,0.811s,PASSED
+"verifyElementPresent(findTestObject(""Page_Swag Labs/Error message username required""), 0)",Chrome 118.0.0.0,,,2023-10-30 20:12:46,2023-10-30 20:12:47,0.672s,PASSED
+closeBrowser(),Chrome 118.0.0.0,,,2023-10-30 20:12:47,2023-10-30 20:12:55,7.595s,PASSED
+,,,,,,,
+Test Cases/Login/TS.Log.001 TC.Log.001.007 User click login without fill username and password,Chrome 118.0.0.0,,,2023-10-30 20:12:55,2023-10-30 20:13:10,15.557s,PASSED
+"openBrowser("""")",Chrome 118.0.0.0,,,2023-10-30 20:12:55,2023-10-30 20:12:58,2.705s,PASSED
+"navigateToUrl(""https://www.saucedemo.com/"")",Chrome 118.0.0.0,,,2023-10-30 20:12:58,2023-10-30 20:13:00,2.301s,PASSED
+"click(findTestObject(""Object Repository/Page_Swag Labs/button_login""))",Chrome 118.0.0.0,,,2023-10-30 20:13:00,2023-10-30 20:13:04,3.294s,PASSED
+"verifyElementPresent(findTestObject(""Page_Swag Labs/Error message username required""), 0)",Chrome 118.0.0.0,,,2023-10-30 20:13:04,2023-10-30 20:13:04,0.706s,PASSED
+closeBrowser(),Chrome 118.0.0.0,,,2023-10-30 20:13:04,2023-10-30 20:13:10,5.830s,PASSED
+,,,,,,,
+Test Cases/Login/TS.Log.001 TC.Log.001.008 User logout,Chrome 118.0.0.0,,,2023-10-30 20:13:10,2023-10-30 20:13:27,16.852s,PASSED
+"openBrowser("""")",Chrome 118.0.0.0,,,2023-10-30 20:13:11,2023-10-30 20:13:14,2.628s,PASSED
+"navigateToUrl(""https://www.saucedemo.com/"")",Chrome 118.0.0.0,,,2023-10-30 20:13:14,2023-10-30 20:13:15,1.349s,PASSED
+"setText(findTestObject(""Object Repository/Page_Swag Labs/Username_field""), ""standard_user"")",Chrome 118.0.0.0,,,2023-10-30 20:13:15,2023-10-30 20:13:18,2.693s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Swag Labs/Password_field""), ""qcu24s4901FyWDTwXGr6XA=="")",Chrome 118.0.0.0,,,2023-10-30 20:13:18,2023-10-30 20:13:19,0.884s,PASSED
+"click(findTestObject(""Object Repository/Page_Swag Labs/button_login""))",Chrome 118.0.0.0,,,2023-10-30 20:13:19,2023-10-30 20:13:20,1.003s,PASSED
+"click(findTestObject(""Page_Swag Labs/button_Open Menu""))",Chrome 118.0.0.0,,,2023-10-30 20:13:20,2023-10-30 20:13:21,1.592s,PASSED
+"click(findTestObject(""Page_Swag Labs/Logout""))",Chrome 118.0.0.0,,,2023-10-30 20:13:21,2023-10-30 20:13:23,1.631s,PASSED
+"verifyElementPresent(findTestObject(""Page_Swag Labs/Login page Swag Labs""), 0)",Chrome 118.0.0.0,,,2023-10-30 20:13:23,2023-10-30 20:13:24,1.518s,PASSED
+closeBrowser(),Chrome 118.0.0.0,,,2023-10-30 20:13:24,2023-10-30 20:13:27,2.617s,PASSED

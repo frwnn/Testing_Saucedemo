@@ -22,7 +22,28 @@
       <guid>4d8ae94c-d441-432d-9bb3-1dd933e94690</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Checkout/TS.Log.003 TC.Log.003.002 User checksout the items without filling the first name field</testCaseId>
+      <testCaseId>Test Cases/Checkout/TS.Log.003 TC.Log.003.002 User checkout the items without filling the first name field</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>12d44b2b-af01-410d-9f57-4e907e1ceda5</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Checkout/TS.Log.003 TC.Log.003.003 User checkout the items without filling the second name field</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>14c7c40f-9ea8-44f9-8432-bdeb47c64348</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Checkout/TS.Log.003 TC.Log.003.004 User checkout the items without filling the zip code field</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>da2d98d2-b017-4905-b217-010d853d06d7</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Checkout/TS.Log.003 TC.Log.003.005 User checkout the items without filling user information</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

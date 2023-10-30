@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TS.Log.003 TC.Log.003.003 User checkout the items without filling the second name field</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>db3230ee-4ac5-4e8a-9d4c-653266fec047</testCaseGuid>
+</TestCaseEntity>
