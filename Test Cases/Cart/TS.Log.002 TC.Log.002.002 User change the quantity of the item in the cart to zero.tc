@@ -4,5 +4,6 @@
    <name>TS.Log.002 TC.Log.002.002 User change the quantity of the item in the cart to zero</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>e8944113-fcf4-4af0-870e-9688ca1b0a98</testCaseGuid>
 </TestCaseEntity>

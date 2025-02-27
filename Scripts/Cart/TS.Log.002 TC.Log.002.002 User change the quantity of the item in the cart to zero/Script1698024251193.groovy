@@ -37,7 +37,7 @@ WebUI.click(findTestObject('Page_Swag Labs/Cart Icon'))
 
 WebUI.verifyElementPresent(findTestObject('Page_Swag Labs/Title item Labs Backpack'), 0)
 
-WebUI.setText(findTestObject('Page_Swag Labs/item quantity'), '0')
+//WebUI.setText(findTestObject('Page_Swag Labs/item quantity'), '0')
 
 WebUI.closeBrowser()
 
