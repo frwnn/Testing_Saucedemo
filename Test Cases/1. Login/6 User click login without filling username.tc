@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>6 User click login without filling username</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f3f7a634-2bc6-42a8-aeea-0a172025b0ba</testCaseGuid>
+</TestCaseEntity>
